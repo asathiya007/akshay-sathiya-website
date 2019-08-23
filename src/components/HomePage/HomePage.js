@@ -4,8 +4,8 @@ import "./HomePage.css";
 const HomePage = () => {
     return (
         <div className="content center">
-            <div className="typewriter grow">
-                <h1>Hey there, I'm Akshay Sathiya, check out my website!</h1>
+            <div className="title grow">
+                <h1>AKSHAY SATHIYA</h1>
             </div>
         </div>
     );
