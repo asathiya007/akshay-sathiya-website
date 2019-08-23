@@ -1,3 +1,7 @@
+* {
+    font: "Trebuchet MS", Helvetica, sans-serif;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -5,7 +9,7 @@
 }
 
 .content {
-    background: url("AkshayHomePic.jpg");
+    background: url("AkshayHomePic.png");
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -16,13 +20,27 @@
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: .08em solid white; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  letter-spacing: .05em; /* Adjust as needed */
+  font-weight: 400;
+  font-size: 35px;
   animation: 
     typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+    blink-caret 0.75s step-end infinite;
+
+    background: grey;
+    color: white;
+    padding: 15px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    transition: all 1s ease-in-out;
+}
+
+.typewriter:hover {
+    transform: scale(1.1);
 }
 
 /* The typing effect */
@@ -34,5 +52,7 @@
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: skyblue; }
+  10% { border-color: grey; }
 }
+
+@media only screen and (max-width: )
