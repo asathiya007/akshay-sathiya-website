@@ -1,0 +1,10 @@
+.workexp {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightcoral;
+}
+
+.vertical {
+    display: flex; 
+    flex-flow: column nowrap;
+}
