@@ -12,4 +12,9 @@
     .text {
         margin-right: 20%;
     }
+
+    .links {
+        flex-flow: column nowrap;
+        margin-bottom: 50px;
+    }
 }

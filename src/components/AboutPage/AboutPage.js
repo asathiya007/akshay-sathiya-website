@@ -1,8 +1,19 @@
 import React from "react";
 import "./AboutPage.css";
 import AkshayFBPic from "./AkshayFBPic.jpg";
+import GitHubLogo from "./GitHubLogo.png";
+import LinkedInLogo from "./LinkedInLogo.png";
 
 const AboutPage = () => {
+
+    const linkToGitHub = () => {
+        window.open("https://github.com/asathiya007").focus();
+    }
+
+    const linkToLinkedIn = () => {
+        window.open("https://www.linkedin.com/in/akshaysathiya/").focus();
+    }
+
     return (
         <div className="aboutpage" style={{display: "flex", justifyContent: "center"}}>
             <div className="intro">
@@ -20,6 +31,10 @@ const AboutPage = () => {
                 </div>
                 <div className="mt1">
                     <h1>Learn more about me below!</h1>
+                    <div className="center mt2 pa2 links">
+                        <img src={GitHubLogo} alt="" className="pa3 mr4 ml4 br-100 grow" width="200px" height="200px" onClick={linkToGitHub}/>
+                        <img src={LinkedInLogo} alt="" className="pa3 mr4 ml4 br-100 grow" width="200px" height="200px" onClick={linkToLinkedIn} />
+                    </div>
                 </div>
             </div>
         </div>
