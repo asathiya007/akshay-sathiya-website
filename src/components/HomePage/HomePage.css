@@ -55,4 +55,40 @@
   10% { border-color: grey; }
 }
 
-@media only screen and (max-width: )
+@media only screen and (max-width: 1212px) {
+    .typewriter h1 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 886px) {
+    .typewriter h1 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 623px) {
+    .typewriter h1 {
+        font-size: 10px;
+    }
+
+    .content {
+        background: url("AkshayHomePic2.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .typewriter h1 {
+        font-size: 7px;
+    }
+
+    .content {
+        background: url("AkshayHomePic2.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
