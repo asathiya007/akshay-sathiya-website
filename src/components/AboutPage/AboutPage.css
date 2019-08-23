@@ -1,0 +1,15 @@
+.aboutpage {
+    width: 100vw;
+    height: 100vh; 
+    background: lightgreen; 
+}
+
+@media only screen and (max-width: 1160px) {
+    .fbPic {
+        visibility: hidden;
+    }
+
+    .text {
+        margin-right: 20%;
+    }
+}

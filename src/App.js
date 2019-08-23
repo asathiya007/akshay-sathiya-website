@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Carousel from "react-bootstrap/Carousel";
 import HomePage from "./components/HomePage/HomePage";
-
+import AboutPage from "./components/AboutPage/AboutPage";
 
 function App() {
   
@@ -13,7 +13,7 @@ function App() {
           <HomePage />
         </Carousel.Item>
         <Carousel.Item>
-          <HomePage />        
+          <AboutPage />        
         </Carousel.Item>
         <Carousel.Item>
           <HomePage />

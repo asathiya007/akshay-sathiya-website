@@ -2,25 +2,19 @@
     font: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .content {
     background: url("AkshayHomePic.png");
-    width: 100vw;
-    height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .08em solid white; /* The typwriter cursor */
+  border-right: .08em solid grey; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .05em; /* Adjust as needed */
