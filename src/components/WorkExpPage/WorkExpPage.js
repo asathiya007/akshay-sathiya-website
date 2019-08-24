@@ -43,8 +43,8 @@ const workExps = [
 
 const WorkExpPage = () => {
     return (
-        <div className="workexp aboutpage" style={{ display: "flex", justifyContent: "center" }}>
-            <div className="display w-100">
+        <div className="workexp" style={{ display: "flex", justifyContent: "center" }}>
+            <div className="w-100">
                 <h1 className="f1 mt0 mb3 pb3 pt3" style={{ backgroundColor: "black", color: "lightcoral" }}>Work Experience</h1>
                 <Scroll>
                     {

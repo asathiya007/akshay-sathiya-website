@@ -4,6 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 import HomePage from "./components/HomePage/HomePage";
 import AboutPage from "./components/AboutPage/AboutPage";
 import WorkExpPage from "./components/WorkExpPage/WorkExpPage";
+import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
 
 function App() {
   
@@ -18,6 +19,9 @@ function App() {
         </Carousel.Item>
         <Carousel.Item>
           <WorkExpPage />
+        </Carousel.Item>
+        <Carousel.Item>
+          <ProjectsPage />
         </Carousel.Item>
       </Carousel>
     </div>
