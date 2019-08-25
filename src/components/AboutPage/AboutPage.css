@@ -5,12 +5,8 @@
 }
 
 @media only screen and (max-width: 1160px) {
-    .fbPic {
+    .fbPic, .honorsBadges {
         visibility: hidden;
-    }
-
-    .text {
-        margin-right: 20%;
     }
 
     .links {
