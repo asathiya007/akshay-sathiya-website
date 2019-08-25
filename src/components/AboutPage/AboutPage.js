@@ -32,7 +32,7 @@ const AboutPage = () => {
                         </div>
                     </div>
                     <div className="mt1">
-                        <h1>Learn more about me below!</h1>
+                        <h1>Learn more about me and my work below!</h1>
                         <div className="center mt2 pa2 links">
                             <img src={GitHubLogo} alt="" className="pa3 mr4 ml4 br-100 grow" width="200px" height="200px" onClick={linkToGitHub} />
                             <img src={LinkedInLogo} alt="" className="pa3 mr4 ml4 br-100 grow" width="200px" height="200px" onClick={linkToLinkedIn} />

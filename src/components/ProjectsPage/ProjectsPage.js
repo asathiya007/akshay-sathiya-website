@@ -4,6 +4,8 @@ import Scroll from "../Scroll/Scroll";
 import HawkEyePic from "./HawkEyePic.png";
 import StarWarsPic from "./StarWarsPic.png";
 import HotShotTennisPic from "./HotShotTennisPic.png";
+import CrystalClearCompostPic from "./CrystalClearCompostPic.jpg";
+import RiddleMeThisPic from "./RiddleMeThisPic.png";
 import ProjectCard from "./ProjectCard";
 
 const projects = [
@@ -35,22 +37,22 @@ const projects = [
         linkType: "Live Project"
     },
     {
-        image: HotShotTennisPic,
-        name: "HotShot Tennis API",
-        descriptions: ["An API that provides specific data about tennis players (name, year turned pro, playing style, grand slam wins, etc.).", "Player data is maintained in a database and can be updated to as time goes on to maintain concurrency.",
-            "Built with Node.js, Express.js, PostgreSQL and deployed with Heroku.",
-            "Give it a try!"],
-        link: "https://hotshot-tennis-api-asathiya.herokuapp.com/",
-        linkType: "Live Project"
+        image: CrystalClearCompostPic,
+        name: "Crystal Clear Compost",
+        descriptions: ["A desktop tool through which users can view and update data about their compost heap (such as the heap’s age, what items are in there and for how long, etc.). Heap data is maintained in flat files.",
+            "Built with Java.",
+            "Check out the GitHub repository!"],
+        link: "https://github.com/asathiya007/Crystal-Clear-Compost",
+        linkType: "GitHub Repo"
     },
     {
-        image: HotShotTennisPic,
-        name: "HotShot Tennis API",
-        descriptions: ["An API that provides specific data about tennis players (name, year turned pro, playing style, grand slam wins, etc.).", "Player data is maintained in a database and can be updated to as time goes on to maintain concurrency.",
-            "Built with Node.js, Express.js, PostgreSQL and deployed with Heroku.",
+        image: RiddleMeThisPic,
+        name: "Riddle Me This!",
+        descriptions: ["An Android mobile app and riddle solving game that presents users with a series of riddles with clues and deceptions along the way.", "Free for download on the Google Play Store.",
+            "Built with Java and Android Studio.",
             "Give it a try!"],
-        link: "https://hotshot-tennis-api-asathiya.herokuapp.com/",
-        linkType: "Live Project"
+        link: "https://play.google.com/store/apps/details?id=akshaysathiya.riddlemethis&hl=en_US",
+        linkType: "Google Play Store Profile"
     }
 ];
 
