@@ -3,7 +3,7 @@ import "./HomePage.css";
 
 const HomePage = () => {
     const nameClicked = () => {
-        window.open("https://akshaysathiya.herokuapp.com/");
+        window.open("https://akshaysathiya.herokuapp.com/", "_self");
     }
 
     return (
