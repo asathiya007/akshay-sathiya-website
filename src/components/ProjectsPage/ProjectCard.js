@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import "./ProjectCard.css";
 
 const ProjectCard = ({ image, name, descriptions, link, linkType }) => {
     const cardClicked = () => {

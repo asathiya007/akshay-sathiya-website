@@ -10,10 +10,11 @@
 
 .title {
     color: white;
-    font-size: 38px;
+    font-size: 2.25vw;
     font-weight: 400;
     letter-spacing: 0.1em;
     font-family: 'Courier New', Courier, monospace;
+    width: 50vw;
 }
 
 .title > h1 {
@@ -24,23 +25,16 @@
     border-radius: 20px;
 }
 
-@media only screen and (max-width: 1212px) {
-    .title {
-        font-size: 25px;
+@media all and (orientation: landscape) {
+    .content {
+        background: url("AkshayHomePic.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
 }
 
-@media only screen and (max-width: 886px) {
-    .title {
-        font-size: 15px;
-    }
-}
-
-@media only screen and (max-width: 623px) {
-    .title {
-        font-size: 10px;
-    }
-
+@media all and (orientation: portrait) {
     .content {
         background: url("AkshayHomePic2.png");
         background-position: center;
@@ -49,15 +43,27 @@
     }
 }
 
-@media only screen and (max-width: 420px) {
-    .title {
-        font-size: 7px;
-    }
+.typewriter h3 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid firebrick; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    
+    background-color: grey; 
+}
 
-    .content {
-        background: url("AkshayHomePic2.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: firebrick; }
 }
