@@ -19,21 +19,21 @@ const projects = [
         linkType: "Live Project"
     },
     {
-        image: StarWarsPic,
-        name: "Star Wars Cards",
-        descriptions: ["A web app that fetches data about Star Wars characters from SWAPI (the Star Wars API) and displays profile cards for each character. When these cards are clicked, the user is taken to the character’s Wookiepedia (the Star Wars wiki) page.", "Users can also search for specific cards/characters and have their card display filtered accordingly.",
-            "Built with React.js and deployed with Heroku.",
-            "Give it a try!"],
-        link: "https://starwarscards-asathiya.herokuapp.com/",
-        linkType: "Live Project"
-    },
-    {
         image: HotShotTennisPic,
         name: "HotShot Tennis API",
         descriptions: ["An API that provides specific data about tennis players (name, year turned pro, playing style, grand slam wins, etc.).", "Player data is maintained in a database and can be updated to as time goes on to maintain concurrency.",
             "Built with Node.js, Express.js, PostgreSQL and deployed with Heroku.",
             "Give it a try!"],
         link: "https://hotshot-tennis-api-asathiya.herokuapp.com/",
+        linkType: "Live Project"
+    },
+    {
+        image: StarWarsPic,
+        name: "Star Wars Cards",
+        descriptions: ["A web app that fetches data about Star Wars characters from SWAPI (the Star Wars API) and displays profile cards for each character. When these cards are clicked, the user is taken to the character’s Wookiepedia (the Star Wars wiki) page.", "Users can also search for specific cards/characters and have their card display filtered accordingly.",
+            "Built with React.js and deployed with Heroku.",
+            "Give it a try!"],
+        link: "https://starwarscards-asathiya.herokuapp.com/",
         linkType: "Live Project"
     },
     {
