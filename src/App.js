@@ -10,7 +10,7 @@ function App() {
   
   return (
     <div className="App">
-      <Carousel className="carousel" interval={null}>
+      <Carousel className="carousel" interval={null} touch={true}>
         <Carousel.Item>
           <HomePage />
         </Carousel.Item>
