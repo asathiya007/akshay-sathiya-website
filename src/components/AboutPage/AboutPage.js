@@ -9,6 +9,14 @@ import Scroll from "../Scroll/Scroll";
 
 const AboutPage = () => {
 
+    const linkToGitHub = () => {
+        window.open("https://github.com/asathiya007").focus();
+    }
+
+    const linkToLinkedIn = () => {
+        window.open("https://www.linkedin.com/in/akshaysathiya/").focus();
+    }
+
     return (
         <div className="aboutpage" style={{display: "flex", justifyContent: "center"}}>
             <div className="intro">
@@ -31,8 +39,8 @@ const AboutPage = () => {
                             <h1>Learn more about me and my work below!</h1>
                         </div>
                         <div className="center mt2 pa2 mb3 pb3 links">
-                            <img src={GitHubLogo} alt="" className="pa3 mr4 ml4 br-100 grow" width="200px" height="200px"  />
-                            <img src={LinkedInLogo} alt="" className="pa3 mr4 ml4 br-100 grow" width="200px" height="200px"  />
+                            <img src={GitHubLogo} alt="" className="pa3 mr4 ml4 br-100 grow" width="200px" height="200px" onClick={linkToGitHub} />
+                            <img src={LinkedInLogo} alt="" className="pa3 mr4 ml4 br-100 grow" width="200px" height="200px" onClick={linkToLinkedIn} />
                         </div>
                     </div>
                 </Scroll>
