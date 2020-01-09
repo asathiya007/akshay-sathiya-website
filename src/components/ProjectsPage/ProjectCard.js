@@ -2,9 +2,6 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 
 const ProjectCard = ({ image, name, descriptions, link, linkType }) => {
-    const cardClicked = () => {
-        window.open(link).focus();
-    }
 
     return (
         <article className="br3 ba dark-gray bg-near-white b--black-10 w-30 ma3">
@@ -26,7 +23,7 @@ const ProjectCard = ({ image, name, descriptions, link, linkType }) => {
                 </div>
             </div>
             <div className="ma3">
-                <Button variant="primary" onClick={cardClicked} style={{ fontSize: "1vw" }} >Explore {linkType}</Button>
+                <Button variant="primary" style={{ fontSize: "1vw" }} >Explore {linkType}</Button>
             </div>
         </article>
     );
