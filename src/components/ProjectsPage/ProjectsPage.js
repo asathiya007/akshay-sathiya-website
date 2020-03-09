@@ -7,8 +7,44 @@ import HotShotTennisPic from "./HotShotTennisPic.png";
 import CrystalClearCompostPic from "./CrystalClearCompostPic.jpg";
 import RiddleMeThisPic from "./RiddleMeThisPic.png";
 import ProjectCard from "./ProjectCard";
+import CodeCircle from './CodeCircle.jpg';
+import SafeAndSound from './SafeAndSound.jpg';
+import MaiJournal from './MaiJournal.jpg';
 
 const projects = [
+    {
+        image: MaiJournal,
+        name: 'Mai Journal',
+        descriptions: [
+            'HackSC 2020',
+            'A journaling platform that helps people with mental illness by analyzing their journal entries and providing them with online media (news articles, YouTube videos, etc.) to help boost/stabilize their mood based on their mental state.',
+            'Used the Google Cloud Natural Language API and trained a model using Google Cloud’s AutoML Natural Language to perform sentiment analysis and classification on users’ journal entries. Used Google Cloud App Engine to deploy the Express + Node.js server used to interact with the Google Cloud NLP models.'
+        ],
+        link: 'https://devpost.com/software/mindjournal',
+        linkType: 'Devpost'
+    },
+    {
+        image: SafeAndSound,
+        name: 'Safe & Sound',
+        descriptions: [
+            'HackDavis 2020 Winner: Best Use of Google Cloud Platform.',
+            'A system that helps people at risk of suicide get the help they need from their loved ones before it’s too late.',
+            'Trained a model using Google Cloud’s AutoML Natural Language to classify text messages as ‘distressed’ or ‘stable’. If a text message is classified as ‘distressed’, an SMS containing the sender’s name, text message, and general location is sent to the sender’s loved ones (using Twilio Programmable SMS), prompting them to reach out.'
+        ],
+        link: 'https://devpost.com/software/safe-sound-gt1k9u',
+        linkType: 'Devpost'
+    },
+    {
+        image: CodeCircle,
+        name: 'CodeCircle',
+        descriptions: [
+            'A social media platform that connects developers around the world.',
+            'Developers can share content, showcase their education/experience credentials, and chat with other developers.',
+            'Try it out with credentials [‘john.doe@gmail.com’, ‘johndoe’].'
+        ],
+        link: 'https://codecircle-asathiya.herokuapp.com/',
+        linkType: 'Live Project'
+    },
     {
         image: HawkEyePic,
         name: "HawkEye Face Detection",
@@ -84,4 +120,4 @@ const ProjectsPage = () => {
     );
 };
 
-export default ProjectsPage; 
+export default ProjectsPage;
