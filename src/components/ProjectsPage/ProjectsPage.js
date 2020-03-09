@@ -40,7 +40,7 @@ const projects = [
         descriptions: [
             'A social media platform that connects developers around the world.',
             'Developers can share content, showcase their education/experience credentials, and chat with other developers.',
-            'Try it out with credentials [‘john.doe@gmail.com’, ‘johndoe’].'
+            'Log in with guest credentials [‘john.doe@gmail.com’, ‘johndoe’] or register your own account to give it a try!'
         ],
         link: 'https://codecircle-asathiya.herokuapp.com/',
         linkType: 'Live Project'
@@ -50,7 +50,7 @@ const projects = [
         name: "HawkEye Face Detection",
         descriptions: ["A full-stack web app that uses AI/computer vision to detect faces in users’ photos and wrap them in blue bounding boxes.", "User data (name, email, entry count, date joined, etc.) is maintained in a database.",
             "Built with React.js, Node.js, Express.js, PostgreSQL and deployed with Heroku.",
-            "Log in with credentials ['john.doe@gmail.com', 'johndoe'] or register your own account to give it a try!"],
+            "Log in with guest credentials ['john.doe@gmail.com', 'johndoe'] or register your own account to give it a try!"],
         link: "https://hawkeye-asathiya.herokuapp.com/",
         linkType: "Live Project"
     },
