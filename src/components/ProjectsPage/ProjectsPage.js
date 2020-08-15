@@ -17,8 +17,8 @@ const projects = [
         name: 'Mai Journal',
         descriptions: [
             'HackSC 2020',
-            'A journaling platform that helps people with mental illness by analyzing their journal entries and providing them with online media (news articles, YouTube videos, etc.) to help boost/stabilize their mood based on their mental state.',
-            'Used the Google Cloud Natural Language API and trained a model using Google Cloud’s AutoML Natural Language to perform sentiment analysis and classification on users’ journal entries. Used Google Cloud App Engine to deploy the Express + Node.js server used to interact with the Google Cloud NLP models.'
+            'A journaling platform for the mentally ill. Analyzes journal entries and provides online media (news articles, YouTube videos, etc.) to help stabilize mood and mental state.',
+            'Used the Google Cloud Natural Language API and trained a model using Google Cloud’s AutoML Natural Language to perform sentiment analysis and classification on journal entries. Deployed the Express + Node.js server using Google Cloud App Engine to interact with the Google Cloud NLP models.'
         ],
         link: 'https://devpost.com/software/mindjournal',
         linkType: 'Devpost'
@@ -29,7 +29,7 @@ const projects = [
         descriptions: [
             'HackDavis 2020 Winner: Best Use of Google Cloud Platform.',
             'A system that helps people at risk of suicide get the help they need from their loved ones before it’s too late.',
-            'Trained a model using Google Cloud’s AutoML Natural Language to classify text messages as ‘distressed’ or ‘stable’. If a text message is classified as ‘distressed’, an SMS containing the sender’s name, text message, and general location is sent to the sender’s loved ones (using Twilio Programmable SMS), prompting them to reach out.'
+            'Trained a model using Google Cloud’s AutoML Natural Language to classify text messages as ‘distressed’ or ‘stable’. Messages classified as ‘distressed’ trigger an SMS containing the sender’s name, message text, and general location sent to the sender’s loved ones, prompting them to reach out.'
         ],
         link: 'https://devpost.com/software/safe-sound-gt1k9u',
         linkType: 'Devpost'

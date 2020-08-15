@@ -3,10 +3,22 @@ import "./WorkExpPage.css";
 import AkshayMTech from "./AkshayMTech.jpg";
 import WorkExpCard from "./WorkExpCard";
 import AnalogyPlusLogo from "./AnalogyPlusLogo.png";
+import FacebookLogo from "./FacebookLogo.gif";
 import LLNLLogo from "./LLNLLogo.png";
 import Scroll from "../Scroll/Scroll";
 
 const workExps = [
+    {
+        employer: "Facebook",
+        role: "Software Engineer Intern",
+        time: "May 2020 - August 2020",
+        descriptions: [
+            "Developed a suggested reply system for Facebook pages representing small/medium sized businesses (SMBs) to boost messaging efficiency and increase the number of valuable business events (sales, transactions, quotes, etc.) fulfilled through the Messenger platform. This system is crucial for helping SMBs survive and operate through the COVID-19 pandemic.",
+            "Developed this system for the mobile website using Hack/PHP, JavaScript, and React.",
+            "Developed this system for the Facebook Lite mobile app using Java, XML, Hack/PHP, and GraphQL."
+        ],
+        image: FacebookLogo
+    },
     {
         employer: "Macy's Systems & Technology",
         role: "Data & Analytics (DaaS) Intern",
