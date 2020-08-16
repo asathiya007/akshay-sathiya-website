@@ -28,7 +28,7 @@ const projects = [
         name: 'Safe & Sound',
         descriptions: [
             'HackDavis 2020 Winner: Best Use of Google Cloud Platform.',
-            'A system that helps people at risk of suicide by analyzing their text messages for distress and notifying their loved ones to reach out before it’s too late.',
+            'A system that helps people at risk of suicide by analyzing their text messages for significant distress and notifying their loved ones to reach out before it’s too late.',
             'I built this with React, Redux, Django, MongoDB, Twilio (Programmable SMS), and Google Cloud Platform (Natural Language)'
         ],
         link: 'https://devpost.com/software/safe-sound-gt1k9u',
