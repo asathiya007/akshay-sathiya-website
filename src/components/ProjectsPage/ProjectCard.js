@@ -7,26 +7,28 @@ const ProjectCard = ({ image, name, descriptions, link, linkType }) => {
     }
 
     return (
-        <article className="br3 ba dark-gray bg-near-white b--black-10 w-30 ma3">
-            <div className="w-100 bg-black br3 br--top center pa2 vh-25">
-                <img src={image} className="db br3" alt="" height="95%"/>
+        <article className="br3 ba dark-gray bg-near-white b--black-10 ma3 flex w-100">
+            <div className="br3 br--left bg-black pa2 w-30 flex-column justify-center">
+                <img src={image} className="db br3 w-100" height="275px" alt=""/>
             </div>
-            <div className="dt w-100 mt1 pv2">
-                <div className="dtc">
-                    <h1 className="mv0" style={{ fontSize: "1.5vw" }}>{name}</h1>
+            <div className="w-70">
+                <div className="dt w-100 mt1 pv2">
+                    <div className="dtc">
+                        <h1 className="mv0">{name}</h1>
+                    </div>
                 </div>
-            </div>
-            <div className="pa2 ph3-ns pb3-ns center" style={{height: "32vh"}}>
-                <div className="f6 lh-copy mt2 mid-gray w-100" style={{ fontSize: "0.9vw"}}>
-                    {
-                        descriptions.map((desc, i) => (
-                            <p key={i}>{desc}</p>
-                        ))
-                    }
+                <div className="pa2 ph3-ns pb3-ns center">
+                    <div className="f6 lh-copy mt2 mid-gray w-100">
+                        {
+                            descriptions.map((desc, i) => (
+                                <p key={i}>{desc}</p>
+                            ))
+                        }
+                    </div>
                 </div>
-            </div>
-            <div className="ma3">
-                <Button variant="primary" onClick={cardClicked} style={{ fontSize: "1vw" }} >Explore {linkType}</Button>
+                <div className="ma3">
+                    <Button variant="primary" onClick={cardClicked}>Explore {linkType}</Button>
+                </div>
             </div>
         </article>
     );

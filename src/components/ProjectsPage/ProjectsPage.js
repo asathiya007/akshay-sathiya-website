@@ -17,8 +17,8 @@ const projects = [
         name: 'Mai Journal',
         descriptions: [
             'HackSC 2020',
-            'A journaling platform for the mentally ill. Analyzes journal entries and provides online media (news articles, YouTube videos, etc.) to help stabilize mood and mental state.',
-            'Used the Google Cloud Natural Language API and trained a model using Google Cloud’s AutoML Natural Language to perform sentiment analysis and classification on journal entries. Deployed the Express + Node.js server using Google Cloud App Engine to interact with the Google Cloud NLP models.'
+            'A journaling platform for the mentally ill. Analyzes journal entries and recommends online media (news articles, YouTube videos, etc.) to help stabilize mood and mental state.',
+            'I built this with HTML, CSS, JavaScript, Node.js, Firebase, Heroku, Twilio (Programmable SMS), and Google Cloud Platform (Natural Language, App Engine)'
         ],
         link: 'https://devpost.com/software/mindjournal',
         linkType: 'Devpost'
@@ -28,8 +28,8 @@ const projects = [
         name: 'Safe & Sound',
         descriptions: [
             'HackDavis 2020 Winner: Best Use of Google Cloud Platform.',
-            'A system that helps people at risk of suicide get the help they need from their loved ones before it’s too late.',
-            'Trained a model using Google Cloud’s AutoML Natural Language to classify text messages as ‘distressed’ or ‘stable’. Messages classified as ‘distressed’ trigger an SMS containing the sender’s name, message text, and general location sent to the sender’s loved ones, prompting them to reach out.'
+            'A system that helps people at risk of suicide by analyzing their text messages for distress and notifying their loved ones to reach out before it’s too late.',
+            'I built this with React, Redux, Django, MongoDB, Twilio (Programmable SMS), and Google Cloud Platform (Natural Language)'
         ],
         link: 'https://devpost.com/software/safe-sound-gt1k9u',
         linkType: 'Devpost'
@@ -39,7 +39,8 @@ const projects = [
         name: 'CodeCircle',
         descriptions: [
             'A social media platform that connects developers around the world.',
-            'Developers can share content, showcase their education/experience credentials, and chat with other developers.',
+            'Developers can share content, showcase their education/experience credentials, and participate in platform-wide discussions.',
+            'I built this with with React, Redux, Express, Node.js, MongoDB, Heroku, and the GitHub API',
             'Log in with guest credentials [‘john.doe@gmail.com’, ‘johndoe’] or register your own account to give it a try!'
         ],
         link: 'https://codecircle-asathiya.herokuapp.com/',
@@ -48,8 +49,8 @@ const projects = [
     {
         image: HawkEyePic,
         name: "HawkEye Face Detection",
-        descriptions: ["A full-stack web app that uses AI/computer vision to detect faces in users’ photos and wrap them in blue bounding boxes.", "User data (name, email, entry count, date joined, etc.) is maintained in a database.",
-            "Built with React.js, Node.js, Express.js, PostgreSQL and deployed with Heroku.",
+        descriptions: ["A full-stack web app that uses AI/computer vision to detect faces in users’ photos and wrap them in blue bounding boxes.",
+            "I built this with React.js, Node.js, Express.js, PostgreSQL, and Heroku.",
             "Log in with guest credentials ['john.doe@gmail.com', 'johndoe'] or register your own account to give it a try!"],
         link: "https://hawkeye-asathiya.herokuapp.com/",
         linkType: "Live Project"
@@ -57,8 +58,8 @@ const projects = [
     {
         image: HotShotTennisPic,
         name: "HotShot Tennis API",
-        descriptions: ["An API that provides specific data about tennis players (name, year turned pro, playing style, grand slam wins, etc.).", "Player data is maintained in a database and can be updated to as time goes on to maintain concurrency.",
-            "Built with Node.js, Express.js, PostgreSQL and deployed with Heroku.",
+        descriptions: ["An API that provides specific data about tennis players (name, year turned pro, playing style, grand slam wins, etc.).",
+            "I built this with Node.js, Express.js, PostgreSQL, and Heroku.",
             "Give it a try!"],
         link: "https://hotshot-tennis-api-asathiya.herokuapp.com/",
         linkType: "Live Project"
@@ -66,8 +67,8 @@ const projects = [
     {
         image: StarWarsPic,
         name: "Star Wars Cards",
-        descriptions: ["A web app that fetches data about Star Wars characters from SWAPI (the Star Wars API) and displays profile cards for each character. When these cards are clicked, the user is taken to the character’s Wookiepedia (the Star Wars wiki) page.", "Users can also search for specific cards/characters and have their card display filtered accordingly.",
-            "Built with React.js and deployed with Heroku.",
+        descriptions: ["A web app that fetches data about Star Wars characters from SWAPI (the Star Wars API) and displays profile cards (linked to the respective Wookiepedia pages) for each character.",
+            "I built this with React and Heroku.",
             "Give it a try!"],
         link: "https://starwarscards-asathiya.herokuapp.com/",
         linkType: "Live Project"
@@ -75,8 +76,8 @@ const projects = [
     {
         image: CrystalClearCompostPic,
         name: "Crystal Clear Compost",
-        descriptions: ["A desktop tool through which users can view and update data about their compost heap (such as the heap’s age, what items are in there and for how long, etc.). Heap data is maintained in flat files.",
-            "Built with Java.",
+        descriptions: ["A desktop tool through which users can view and update data about their compost heap (such as the heap’s age, what items are in there and for how long, etc.).",
+            "I built this with Java",
             "Check out the GitHub repository!"],
         link: "https://github.com/asathiya007/Crystal-Clear-Compost",
         linkType: "GitHub Repo"
@@ -85,7 +86,7 @@ const projects = [
         image: RiddleMeThisPic,
         name: "Riddle Me This!",
         descriptions: ["An Android mobile app and riddle solving game that presents users with a series of riddles with clues and deceptions along the way.", "Free for download on the Google Play Store.",
-            "Built with Java and Android Studio.",
+            "I built this with Java and XML.",
             "Give it a try!"],
         link: "https://play.google.com/store/apps/details?id=akshaysathiya.riddlemethis&hl=en_US",
         linkType: "Google Play Store Profile"
