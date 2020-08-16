@@ -28,8 +28,8 @@ const projects = [
         name: 'Safe & Sound',
         descriptions: [
             'HackDavis 2020 Winner: Best Use of Google Cloud Platform.',
-            'A system that helps people at risk of suicide by analyzing their text messages for significant distress and notifying their loved ones to reach out before it’s too late.',
-            'I built this with React, Redux, Django, MongoDB, Twilio (Programmable SMS), and Google Cloud Platform (Natural Language)'
+            'A system that protects people at risk of suicide from self-harm by analyzing their text messages for significant distress and notifying their loved ones to reach out before it’s too late.',
+            'I built this with React, Redux, Django, MongoDB (Atlas), Twilio (Programmable SMS), and Google Cloud Platform (Natural Language)'
         ],
         link: 'https://devpost.com/software/safe-sound-gt1k9u',
         linkType: 'Devpost'
@@ -40,7 +40,7 @@ const projects = [
         descriptions: [
             'A social media platform that connects developers around the world.',
             'Developers can share content, showcase their education/experience credentials, and participate in platform-wide discussions.',
-            'I built this with with React, Redux, Express, Node.js, MongoDB, Heroku, and the GitHub API',
+            'I built this with with React, Redux, Express, Node.js, MongoDB (Atlas), Heroku, and the GitHub API',
             'Log in with guest credentials [‘john.doe@gmail.com’, ‘johndoe’] or register your own account to give it a try!'
         ],
         link: 'https://codecircle-asathiya.herokuapp.com/',
