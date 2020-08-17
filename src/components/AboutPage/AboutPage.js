@@ -23,15 +23,15 @@ const AboutPage = () => {
                 <h1 className="f1 mt0 mb3 pb3 pt3" style={{backgroundColor: "black", color: "lightgreen"}}>About Me</h1>
                 <Scroll>
                     <div className="pa2 center">
-                        <img src={AkshayFBPic} alt="" width="15%" height="100%" style={{ objectFit: "cover" }} className="br4 fbPic grow" />
+                        <img src={AkshayFBPic} alt="" width="15%" height="100%" style={{ objectFit: "cover" }} className="br4 fbPic" />
                         <div className="w-50 mh4 text">
-                            <p className="f4">Hey there, thanks for visiting my website! I am Akshay Sathiya, and I am currently studying computer science with a specialization in intelligence and information internetworks at the Georgia Institute of Technology. I am an Eagle Scout and an Oracle Certified Associate in Java SE 8 Programming. I aspire to expand and apply my skill set in full-stack web and mobile development, artificial intelligence, and entrepreneurship.</p>
-                            <p className="f4">I have been born and raised in the Bay Area, California, and I currently attend school in Atlanta, so I am no stranger to "hustle culture". I have had the honor and privilege of seeing technology be developed right in my backyard and watching it grow and change the world.</p>
-                            <p className="f4">I aim to leverage my computer science and leadership skills to build stellar technology and change the world in my own way, so let's team up! Shoot me an email at akshay.sathiya@gmail.com or call/text me at +1-925-548-7652.</p>
+                            <p className="f4">Hey there, thanks for visiting my website! I am Akshay Sathiya, and I am currently working towards both my BS (specialization: intelligence and internetworks) and MS (specialization: machine learning) in computer science from the Georgia Institute of Technology. I am an Eagle Scout and an Oracle Certified Associate in Java SE 8 Programming. I aspire to expand and apply my skill set in full-stack web and mobile development, machine learning, and entrepreneurship.</p>
+                            <p className="f4">I have been born and raised in the Bay Area, California, and I currently attend school in Atlanta, so I am no stranger to "hustle culture". I have had the honor and privilege of seeing technology be developed right in my backyard and watching it grow and change the world. I love working hard with others to bring our ideas to life and make the world a better place. </p>
+                            <p className="f4">I am leveraging my computer science and leadership skills to build stellar technology and change the world in my own way, so let's team up! Shoot me an email at akshay.sathiya@gmail.com or call/text me at +1-925-548-7652.</p>
                         </div>
                         <div className="honorsBadges h-100 w-15 pb3" style={{display: "flex", flexFlow: "column", justifyContent: "center", alignItems: "center"}}>
-                            <img className="mb4 grow" src={EagleScoutBadge} alt="" width="150px"/>
-                            <img className="mt4 grow" src={OracleCertBadge} alt="" width="150px"/>
+                            <img className="mb4" src={EagleScoutBadge} alt="" width="150px"/>
+                            <img className="mt4" src={OracleCertBadge} alt="" width="150px"/>
                         </div>
                     </div>
                     <div className="mt1">

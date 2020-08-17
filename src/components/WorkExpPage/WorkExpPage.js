@@ -1,9 +1,9 @@
 import React from "react";
 import "./WorkExpPage.css";
-import AkshayMTech from "./AkshayMTech.jpg";
+import AkshayMTech from "./AkshayMTech.png";
 import WorkExpCard from "./WorkExpCard";
 import AnalogyPlusLogo from "./AnalogyPlusLogo.png";
-import FacebookLogo from "./AkshayFB.jpg";
+import AkshayFB from "./AkshayFB.png";
 import LLNLLogo from "./LLNLLogo.png";
 import Scroll from "../Scroll/Scroll";
 
@@ -17,7 +17,7 @@ const workExps = [
             "I developed this system for the mobile website (using Hack/PHP, JavaScript, and React) and for the Facebook Lite mobile app (using java, XML, Hack/PHP, and GraphQL).",
             "This system is a crucial part of Facebook's initiative to help SMBs survive and operate through the economic recession caused by the COVID-19 pandemic."
         ],
-        image: FacebookLogo
+        image: AkshayFB
     },
     {
         employer: "Macy's Systems & Technology",
@@ -55,7 +55,7 @@ const workExps = [
 
 const WorkExpPage = () => {
     return (
-        <div className="workexp" style={{ display: "flex", justifyContent: "center" }}>
+        <div className="workexp " style={{ display: "flex", justifyContent: "center" }}>
             <div className="w-100">
                 <h1 className="f1 mt0 mb3 pb3 pt3" style={{ backgroundColor: "black", color: "lightcoral" }}>Work Experience</h1>
                 <Scroll>

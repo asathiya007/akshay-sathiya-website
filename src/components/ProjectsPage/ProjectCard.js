@@ -7,8 +7,8 @@ const ProjectCard = ({ image, name, descriptions, link, linkType }) => {
     }
 
     return (
-        <article className="br3 ba dark-gray bg-near-white b--black-10 ma3 flex w-100">
-            <div className="br3 br--left bg-black pa2 w-30 flex-column justify-center">
+        <article className="br3 ba dark-gray bg-near-white b--black-10 ma3 flex justify-center w-100">
+            <div className="br3 br--left bg-black pa2 w-30 flex-column justify-center mobile-hide">
                 <img src={image} className="db br3 w-100" height="275px" alt=""/>
             </div>
             <div className="w-70">
