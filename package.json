@@ -1,6 +1,9 @@
 {
   "name": "asathiyawebsite",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.x"
+  },
   "private": true,
   "dependencies": {
     "animate.css": "^3.7.2",
