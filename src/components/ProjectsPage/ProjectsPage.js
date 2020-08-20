@@ -111,7 +111,7 @@ const ProjectsPage = () => {
             <div className="w-100">
                 <h1 className="f1 mt0 mb3 pb3 pt3" style={{ backgroundColor: "black", color: "lightskyblue" }}>Projects</h1>
                 <Scroll>
-                    <div className="center w-80" style={{flexFlow: "row wrap"}}>
+                    <div className="center w-80" style={{ flexFlow: "row wrap" }}>
                         {
                             projects.map((proj, i) =>
                                 (
