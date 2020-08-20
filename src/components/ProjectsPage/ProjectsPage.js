@@ -21,7 +21,7 @@ const projects = [
             'Wildfires are often noticed by humans after they have gotten too large. By detecting these wildfires from the air before they get too large and reach humans, HotSpot enables authorities to take action to control the wildfire, limit the damage, and save countless lives.',
             'I built this with React, Flash, PyTorch, and Heroku'
         ],
-        link: 'https://akshaysathiya.herokuapp.com/',
+        link: 'https://hotspot-asathiya.herokuapp.com/',
         linkType: 'Live Project'
     },
     {
