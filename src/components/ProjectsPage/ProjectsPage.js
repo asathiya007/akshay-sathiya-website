@@ -19,7 +19,7 @@ const projects = [
         descriptions: [
             'A computer vision tool that detects wildfires in aerial images from planes, drones, satellites, etc. This was built in response to the wildfires that have been sparked across California throughout the years, the most recent of which happened due to the heat wave in August 2020.',
             'Wildfires are often noticed by humans after they have gotten too large. By detecting these wildfires from the air before they get too large and reach humans, HotSpot enables authorities to take action to control the wildfire, limit the damage, and save countless lives.',
-            'I built this with React, Flash, PyTorch, and Heroku'
+            'I built this with React, Flask, PyTorch, and Heroku'
         ],
         link: 'https://hotspot-asathiya.herokuapp.com/',
         linkType: 'Live Project'
