@@ -13,7 +13,7 @@ const projects = [
         image: CarCam, 
         name: 'CarCam',
         descriptions: [
-            'CarCam is a computer vision pipeline for self-driving cars and other autonomous vehicles. CarCam detects and marks/bounds lanes and road entities (like other cars on the road). CarCam also gauges collision risks with these road entities.',
+            'CarCam is a computer vision pipeline for self-driving cars and other autonomous vehicles. CarCam uses machine learning to detect and mark/bound lanes and road entities (like other cars on the road) as well as gauge collision risks with these road entities.',
             'Lanes are marked with blue lines, and road entities are bounded in green or red boxed. A road entity with which a collision is unlikely to occur is bounded in a green box and is deemed \'safe\'. A road entity with which a collision may occur is bounded in a red box and is deemed \'risky\'.',
             'I built this with PyTorch and OpenCV'
         ], 
@@ -24,7 +24,7 @@ const projects = [
         image: HotSpot,
         name: 'HotSpot',
         descriptions: [
-            'A computer vision tool that detects wildfires in aerial images from planes, drones, satellites, etc. This was built in response to the wildfires that have been sparked across California throughout the years, the most recent of which happened due to the heat wave in August 2020.',
+            'An artificial intelligence tool that uses computer vision to detect wildfires in aerial images from planes, drones, satellites, etc. This was built in response to the wildfires that have been sparked across California throughout the years, the most recent of which happened due to the heat wave in August 2020.',
             'Wildfires are often noticed by humans after they have gotten too large. By detecting these wildfires from the air before they get too large and reach humans, HotSpot enables authorities to take action to control the wildfire, limit the damage, and save countless lives.',
             'I built this with React, Flask, PyTorch, and Heroku'
         ],
@@ -36,8 +36,8 @@ const projects = [
         name: 'Mai Journal',
         descriptions: [
             'HackSC 2020',
-            'A journaling platform for the mentally ill. Analyzes journal entries and recommends online media (news articles, YouTube videos, etc.) to help stabilize mood and mental state.',
-            'My team and I built this with HTML, CSS, JavaScript, Node.js, Firebase, Heroku, and Google Cloud Platform (Natural Language, App Engine)'
+            'An AI-powered journaling platform for the mentally ill that uses natural language processing to analyze journal entries and recommends online media (news articles, YouTube videos, etc.) to help stabilize mood and mental state.',
+            'My team and I built this with HTML, CSS, JavaScript, Node.js, Firebase, Heroku, Google Cloud Platform Natural Language, and Google Cloud Platform App Engine'
         ],
         link: 'https://devpost.com/software/mindjournal',
         linkType: 'Devpost'
@@ -47,8 +47,8 @@ const projects = [
         name: 'Safe & Sound',
         descriptions: [
             'HackDavis 2020 Winner: Best Use of Google Cloud Platform.',
-            'A system that protects people at risk of suicide from self-harm by analyzing their text messages for significant distress and notifying their loved ones to reach out before it’s too late.',
-            'My team and I built this with React, Django, MongoDB, and Google Cloud Platform (Natural Language)'
+            'A machine learning system that protects people at risk of suicide from self-harm by using natural language processing to analyze their text messages for significant distress and notifying their loved ones to reach out before it’s too late.',
+            'My team and I built this with React, Django, MongoDB, and Google Cloud Platform Natural Language'
         ],
         link: 'https://devpost.com/software/safe-sound-gt1k9u',
         linkType: 'Devpost Page'
@@ -56,7 +56,7 @@ const projects = [
     {
         image: HawkEyePic,
         name: "HawkEye Face Detection",
-        descriptions: ["A full-stack web app that uses AI/computer vision to detect faces in users’ photos and wrap them in blue bounding boxes.",
+        descriptions: ["A system that uses AI and computer vision to detect faces in users’ photos and wrap them in blue bounding boxes.",
             "I built this with React, Node.js, Express, PostgreSQL, and Heroku.",
             "Log in with guest credentials ['john.doe@gmail.com', 'johndoe'] or register your own account to give it a try!"],
         link: "https://hawkeye-asathiya.herokuapp.com/",
