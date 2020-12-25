@@ -27,7 +27,7 @@ const ProjectCard = ({ image, name, descriptions, link, linkType }) => {
                     </div>
                 </div>
                 <div className="ma3">
-                    <Button variant="primary" onClick={cardClicked}>Explore {linkType}</Button>
+                    <Button variant="primary" onClick={cardClicked}>View {linkType}</Button>
                 </div>
             </div>
         </article>

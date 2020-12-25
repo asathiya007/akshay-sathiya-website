@@ -37,7 +37,7 @@ const projects = [
         descriptions: [
             'HackSC 2020',
             'A journaling platform for the mentally ill. Analyzes journal entries and recommends online media (news articles, YouTube videos, etc.) to help stabilize mood and mental state.',
-            'I built this with HTML, CSS, JavaScript, Node.js, Firebase, Heroku, Twilio (Programmable SMS), and Google Cloud Platform (Natural Language, App Engine)'
+            'My team and I built this with HTML, CSS, JavaScript, Node.js, Firebase, Heroku, and Google Cloud Platform (Natural Language, App Engine)'
         ],
         link: 'https://devpost.com/software/mindjournal',
         linkType: 'Devpost'
@@ -48,10 +48,10 @@ const projects = [
         descriptions: [
             'HackDavis 2020 Winner: Best Use of Google Cloud Platform.',
             'A system that protects people at risk of suicide from self-harm by analyzing their text messages for significant distress and notifying their loved ones to reach out before it’s too late.',
-            'I built this with React, Django, MongoDB, Twilio (Programmable SMS), and Google Cloud Platform (Natural Language)'
+            'My team and I built this with React, Django, MongoDB, and Google Cloud Platform (Natural Language)'
         ],
         link: 'https://devpost.com/software/safe-sound-gt1k9u',
-        linkType: 'Devpost'
+        linkType: 'Devpost Page'
     },
     {
         image: HawkEyePic,
