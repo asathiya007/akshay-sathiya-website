@@ -1,11 +1,11 @@
 import React from "react";
 import "./ProjectsPage.css";
 import Scroll from "../Scroll/Scroll";
-import HawkEyePic from "./HawkEyePic.png";
+import HawkEye from "./HawkEye.png";
 import ProjectCard from "./ProjectCard";
 import SafeAndSound from './SafeAndSound.jpg';
 import MaiJournal from './MaiJournal.jpg';
-import HotSpot from './HotSpot.png';
+import HotSpot from './HotSpot.jpg';
 import CarCam from './carcam.png';
 
 const projects = [
@@ -54,7 +54,7 @@ const projects = [
         linkType: 'Devpost Page'
     },
     {
-        image: HawkEyePic,
+        image: HawkEye,
         name: "HawkEye Face Detection",
         descriptions: ["A system that uses AI and computer vision to detect faces in users’ photos and wrap them in blue bounding boxes.",
             "I built this with React, Node.js, Express, PostgreSQL, and Heroku.",
