@@ -10,7 +10,7 @@ import Scroll from "../Scroll/Scroll";
 const workExps = [
     {
         employer: "Facebook",
-        role: "Software Engineer Intern",
+        role: "Software Engineer Intern - Messenger AI/ML",
         time: "May 2020 - August 2020",
         descriptions: [
             "I developed a suggested reply system for Facebook pages representing small/medium sized businesses (SMBs) to boost messaging efficiency and increase the number of valuable business events (sales, transactions, quotes, etc.) fulfilled through the Messenger platform.",
@@ -21,7 +21,7 @@ const workExps = [
     },
     {
         employer: "Macy's Systems & Technology",
-        role: "Data & Analytics (DaaS) Intern",
+        role: "Software Engineer Intern - Data & Analytics (DaaS)",
         time: "May 2019 - August 2019",
         descriptions: [
             "I developed & debugged a Google Cloud Platform (GCP) Dataflow application which flattened & mapped order data from Macy's infrastructure to a GCP BigQuery database as a part of the company’s shift to Google Cloud Platform.",
