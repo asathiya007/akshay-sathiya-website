@@ -5,7 +5,7 @@ import HawkEye from "./HawkEye.png";
 import ProjectCard from "./ProjectCard";
 import SafeAndSound from './SafeAndSound.jpg';
 import MaiJournal from './MaiJournal.jpg';
-import HotSpot from './HotSpot.jpg';
+import HotSpot from './HotSpot.png';
 import CarCam from './carcam.png';
 
 const projects = [
@@ -13,8 +13,9 @@ const projects = [
         image: CarCam, 
         name: 'CarCam',
         descriptions: [
-            'CarCam is a computer vision pipeline for self-driving cars and other autonomous vehicles. CarCam uses machine learning to detect and mark/bound lanes and road entities (like other cars on the road) as well as gauge collision risks with these road entities.',
-            'Lanes are marked with blue lines, and road entities are bounded in green or red boxed. A road entity with which a collision is unlikely to occur is bounded in a green box and is deemed \'safe\'. A road entity with which a collision may occur is bounded in a red box and is deemed \'risky\'.',
+            'CarCam is a computer vision pipeline for autonomous vehicles, built with PyTorch and OpenCV. CarCam uses machine learning to detect lanes, track road entities (like other vehicles), and assess collision risks with these road entities.',
+            'CarCam relies on input from only one camera, instead of relying on several cameras, multiple sensors, and/or complex systems like LiDAR, making safe self-driving simple, cheap, and easily accessible to all vehicles.',
+            'Lanes are marked with blue lines, and road entities are bounded in green or red boxes. A road entity with which a collision is unlikely to occur is bounded in a green box and is deemed \'safe\'. A road entity with which a collision may occur is bounded in a red box and is deemed \'risky\'.',
             'I built this with PyTorch and OpenCV'
         ], 
         link: 'https://youtu.be/IRfuNHZG8CQ', 
