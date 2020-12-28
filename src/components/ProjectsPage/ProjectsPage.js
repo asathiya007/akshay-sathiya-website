@@ -41,7 +41,7 @@ const projects = [
             'My team and I built this with HTML, CSS, JavaScript, Node.js, Firebase, Heroku, Google Cloud Platform Natural Language, and Google Cloud Platform App Engine'
         ],
         link: 'https://devpost.com/software/mindjournal',
-        linkType: 'Devpost'
+        linkType: 'Devpost Page'
     },
     {
         image: SafeAndSound,
