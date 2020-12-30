@@ -3,7 +3,11 @@ import Button from "react-bootstrap/Button";
 
 const ProjectCard = ({ image, name, descriptions, link, linkType }) => {
     const cardClicked = () => {
-        window.open(link).focus();
+        try {
+            window.open(link).focus(); 
+        } catch (error) {
+            // pass
+        }
     }
 
     return (
