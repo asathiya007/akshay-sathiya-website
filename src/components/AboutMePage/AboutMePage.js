@@ -36,7 +36,7 @@ const AboutMePage = () => {
                     </div>
                     <div className="mt1">
                         <div className="w-80 ph4 center">
-                            <h1>Learn more about me and what I do below!</h1>
+                            <h1>Learn more about me and what I do, below!</h1>
                         </div>
                         <div className="center mt2 pa2 mb3 pb3 links">
                             <img src={GitHubLogo} alt="" className="pa3 mr4 ml4 br-100 grow" width="200px" height="200px" onClick={linkToGitHub} />
