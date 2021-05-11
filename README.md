@@ -1,5 +1,5 @@
-### Akshay Sathiya's Personal Website 
-This is Akshay Sathiya's personal website. 
+### Akshay Sathiya's Website 
+This repo contains the code for Akshay Sathiya's website. 
 
 ### React Stuff 
 
