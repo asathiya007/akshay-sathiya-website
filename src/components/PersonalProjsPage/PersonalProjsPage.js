@@ -58,8 +58,8 @@ const personalProjs = [
         image: HawkEye,
         name: "HawkEye Face Detection",
         descriptions: [
-            "A system that uses AI and computer vision to detect faces in users’ photos and wrap them in blue bounding boxes.",
-            "Log in with guest credentials ['john.doe@gmail.com', 'johndoe'] or register your own account to give it a try!",
+            "A system that uses AI and computer vision to detect faces in photos and wrap them in blue bounding boxes.",
+            "Log in with guest credentials ['john.doe@gmail.com', 'johndoe'] or register your own account to give it a try.",
             "I built this with React, Node.js, Express, PostgreSQL, and Heroku."
         ],
         link: "https://hawkeye-asathiya.herokuapp.com/",
