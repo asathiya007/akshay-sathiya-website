@@ -1,3 +1,8 @@
+### Akshay Sathiya's Personal Website 
+This is Akshay Sathiya's personal website. 
+
+### React Stuff 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
