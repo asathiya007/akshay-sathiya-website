@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import Carousel from "react-bootstrap/Carousel";
 import HomePage from "./components/HomePage/HomePage";
-import AboutPage from "./components/AboutPage/AboutPage";
+import AboutPage from "./components/AboutMePage/AboutMePage";
 import WorkExpPage from "./components/WorkExpPage/WorkExpPage";
-import PersonalProjsPage from "./components/ProjectsPage/PersonalProjsPage";
+import PersonalProjsPage from "./components/PersonalProjsPage/PersonalProjsPage";
 
 function App() {
   
