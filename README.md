@@ -1,5 +1,5 @@
 # Akshay Sathiya's Website 
-This repo contains the code for Akshay Sathiya's website. Check it out at https://akshaysathiya.herokuapp.com/. 
+This repo contains the code for Akshay Sathiya's website. Check it out here: https://akshaysathiya.herokuapp.com/. 
 
 # React Stuff 
 
