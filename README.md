@@ -1,7 +1,7 @@
-### Akshay Sathiya's Website 
+# Akshay Sathiya's Website 
 This repo contains the code for Akshay Sathiya's website. 
 
-### React Stuff 
+# React Stuff 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
