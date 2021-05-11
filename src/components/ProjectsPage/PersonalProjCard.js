@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 
-const ProjectCard = ({ image, name, descriptions, link, linkType }) => {
+const PersonalProjCard = ({ image, name, descriptions, link, linkType }) => {
     const cardClicked = () => {
         try {
             window.open(link).focus(); 
@@ -38,4 +38,4 @@ const ProjectCard = ({ image, name, descriptions, link, linkType }) => {
     );
 };
 
-export default ProjectCard; 
+export default PersonalProjCard; 

@@ -6,8 +6,18 @@ import AnalogyPlusLogo from "./AnalogyPlusLogo.png";
 import AkshayFB from "./AkshayFB.png";
 import LLNLLogo from "./LLNLLogo.png";
 import Scroll from "../Scroll/Scroll";
+import MicrosoftLogo from "./MicrosoftLogo.png";
 
 const workExps = [
+    {
+        employer: "Microsoft",
+        role: "Software Engineer Intern - Azure Compute",
+        time: "May 2021 - August 2021",
+        descriptions: [
+            "Incoming intern!"
+        ], 
+        image: MicrosoftLogo
+    },
     {
         employer: "Facebook",
         role: "Software Engineer Intern - Messenger AI/ML",

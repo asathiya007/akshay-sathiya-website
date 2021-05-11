@@ -1,14 +1,14 @@
 import React from "react";
-import "./ProjectsPage.css";
+import "./PersonalProjsPage.css";
 import Scroll from "../Scroll/Scroll";
 import HawkEye from "./HawkEye.png";
-import ProjectCard from "./ProjectCard";
+import PersonalProjCard from "./PersonalProjCard";
 import SafeAndSound from './SafeAndSound.jpg';
 import MaiJournal from './MaiJournal.jpg';
 import HotSpot from './HotSpot.png';
 import CarCam from './carcam.png';
 
-const projects = [
+const personalProjs = [
     {
         image: CarCam, 
         name: 'CarCam',
@@ -67,23 +67,23 @@ const projects = [
     }
 ];
 
-const ProjectsPage = () => {
+const PersonalProjsPage = () => {
     return (
-        <div className="projects" style={{ display: "flex", justifyContent: "center" }}>
+        <div className="personalProjs" style={{ display: "flex", justifyContent: "center" }}>
             <div className="w-100">
-                <h1 className="f1 mt0 mb3 pb3 pt3" style={{ backgroundColor: "black", color: "lightskyblue" }}>Projects</h1>
+                <h1 className="f1 mt0 mb3 pb3 pt3" style={{ backgroundColor: "black", color: "lightskyblue" }}>Personal Projects</h1>
                 <Scroll>
                     <div className="center w-80" style={{ flexFlow: "row wrap" }}>
                         {
-                            projects.map((proj, i) =>
+                            personalProjs.map((persProj, i) =>
                                 (
-                                    <ProjectCard
+                                    <PersonalProjCard
                                         key={i}
-                                        image={proj.image}
-                                        name={proj.name}
-                                        descriptions={proj.descriptions}
-                                        link={proj.link}
-                                        linkType={proj.linkType}
+                                        image={persProj.image}
+                                        name={persProj.name}
+                                        descriptions={persProj.descriptions}
+                                        link={persProj.link}
+                                        linkType={persProj.linkType}
                                     />
                                 )
                             )
@@ -95,4 +95,4 @@ const ProjectsPage = () => {
     );
 };
 
-export default ProjectsPage;
+export default PersonalProjsPage;
