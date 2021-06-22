@@ -14,7 +14,8 @@ const workExps = [
         role: "Software Engineer Intern - Azure Compute",
         time: "May 2021 - August 2021",
         descriptions: [
-            "Incoming intern!"
+            "Developing a system (using Python, PyTorch, and Scikit-learn) for Azure High Performance Computing (HPC) that uses machine learning to determine if Azure Compute instances (nodes) running AI workloads are stable or unstable given their telemetry data (floating-point operations per second, disk performance, model performance, host-to-GPU/GPU-to-host bandwidth, etc.).",
+            "This system drastically reduces the time of node validation in HPC settings (from hours to minutes), allowing Microsoft to quickly detect unstable nodes, restore them, and ultimately keep Azure robust and reliable for all stakeholders."
         ], 
         image: MicrosoftLogo
     },
