@@ -1,11 +1,11 @@
 import React from "react";
-import "./WorkExpCard.css";
+import "./ExperienceCard.css";
 
 
-const WorkExpCard = ({employer, role, time, descriptions, image}) => {
+const ExperienceCard = ({employer, role, time, descriptions, image}) => {
     return (
         <div className="center pa4">
-            <article className="br3 ba dark-gray bg-near-white b--black-10 workexp-card-width">
+            <article className="br3 ba dark-gray bg-near-white b--black-10 experience-card-width">
                 <img src={image} className="db w-100 br3 br--top" alt="" />
                 <div className="pa2 ph3-ns pb3-ns">
                     <div className="dt w-100 mt1">
@@ -28,4 +28,4 @@ const WorkExpCard = ({employer, role, time, descriptions, image}) => {
     );
 }; 
 
-export default WorkExpCard; 
+export default ExperienceCard; 

@@ -3,8 +3,8 @@ import './App.css';
 import Carousel from "react-bootstrap/Carousel";
 import HomePage from "./components/HomePage/HomePage";
 import AboutPage from "./components/AboutMePage/AboutMePage";
-import WorkExpPage from "./components/WorkExpPage/WorkExpPage";
-import PersonalProjsPage from "./components/PersonalProjsPage/PersonalProjsPage";
+import ExperiencePage from "./components/ExperiencePage/ExperiencePage";
+import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
 
 function App() {
   
@@ -18,10 +18,10 @@ function App() {
           <AboutPage />        
         </Carousel.Item>
         <Carousel.Item>
-          <WorkExpPage />
+          <ExperiencePage />
         </Carousel.Item>
         <Carousel.Item>
-          <PersonalProjsPage />
+          <ProjectsPage />
         </Carousel.Item>
       </Carousel>
     </div>

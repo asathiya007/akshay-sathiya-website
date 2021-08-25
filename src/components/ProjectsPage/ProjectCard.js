@@ -1,13 +1,24 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 
-const PersonalProjCard = ({ image, name, descriptions, link, linkType }) => {
+const ProjectCard = ({ image, name, descriptions, link, linkType }) => {
     const cardClicked = () => {
         try {
             window.open(link).focus(); 
         } catch (error) {
             // pass
         }
+    }
+
+    const showButton = (link, linkType) => { 
+        if (link && linkType) {
+            return (
+                <div className="ma3">
+                    <Button variant="primary" onClick={cardClicked}>View {linkType}</Button>
+                </div>
+            ) ; 
+        }
+        return <div></div>
     }
 
     return (
@@ -30,12 +41,10 @@ const PersonalProjCard = ({ image, name, descriptions, link, linkType }) => {
                         }
                     </div>
                 </div>
-                <div className="ma3">
-                    <Button variant="primary" onClick={cardClicked}>View {linkType}</Button>
-                </div>
+                {showButton(link, linkType)}
             </div>
         </article>
     );
 };
 
-export default PersonalProjCard; 
+export default ProjectCard; 
