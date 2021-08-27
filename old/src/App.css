@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background: black;
+}
+
+.carousel {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.carousel-indicators > li {
+  width: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .mobile-hide {
+        visibility: hidden;
+        display: none; 
+    }
+
+    .mobile-widen {
+        width: 100%;
+    }
+}

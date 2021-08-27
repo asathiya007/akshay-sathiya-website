@@ -1,30 +1,30 @@
-import React from 'react';
 import './App.css';
-import Carousel from "react-bootstrap/Carousel";
-import HomePage from "./components/HomePage/HomePage";
-import AboutPage from "./components/AboutMePage/AboutMePage";
-import ExperiencePage from "./components/ExperiencePage/ExperiencePage";
-import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
+import React, {Fragment} from 'react';
+import Landing from './components/Landing';
+import Navigation from './components/Navigation';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import 'tachyons';
+import About from './components/About';
+import Recognition from './components/Recognition';
+import Projects from './components/Projects';
+import Experience from './components/Experience';
+import Education from './components/Education';
 
 function App() {
-  
   return (
-    <div className="App">
-      <Carousel className="carousel" interval={null} touch={true}>
-        <Carousel.Item>
-          <HomePage />
-        </Carousel.Item>
-        <Carousel.Item>
-          <AboutPage />        
-        </Carousel.Item>
-        <Carousel.Item>
-          <ExperiencePage />
-        </Carousel.Item>
-        <Carousel.Item>
-          <ProjectsPage />
-        </Carousel.Item>
-      </Carousel>
-    </div>
+    <Router>
+        <Fragment>
+          <Route component={Navigation} />
+          <Switch>
+            <Route exact path="/" component={Landing} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/recognition" component={Recognition} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/experience" component={Experience} />
+            <Route exact path="/education" component={Education} />
+          </Switch>
+        </Fragment>
+      </Router>
   );
 }
 
