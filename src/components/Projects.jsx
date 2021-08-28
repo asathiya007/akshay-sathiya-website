@@ -32,7 +32,7 @@ const Projects = () => {
         {
             image: hotspot, 
             title: 'HotSpot',
-            stack: 'Pytorch, React, Flask, and Heroku',
+            stack: 'PyTorch, React, Flask, and Heroku',
             date: 'August 2020',
             descriptions: [
                 'A machine learning tool that detects fires in aerial images captured by planes, drones, satellites, etc. Inspired by California\'s wildfire crisis in August 2020.', 
