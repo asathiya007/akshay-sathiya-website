@@ -14,7 +14,7 @@ const Projects = () => {
             stack: 'PyTorch and OpenCV',
             date: 'December 2020',
             descriptions: [
-                'An artificial intelligence pipeline for autonomous vehicles that detects lanes, track road entities (like other vehicles), and assess collision risks with these road entities.',
+                'An artificial intelligence pipeline for autonomous vehicles that detects lanes, tracks road entities (like other vehicles), and assesses collision risks with these road entities.',
                 'CarCam relies on input from only one camera, instead of relying on several cameras, multiple sensors, and/or complex systems like LiDAR, making safe self-driving simple, cheap, and easily accessible to all vehicles.'
             ], 
             url: 'https://youtu.be/IRfuNHZG8CQ'
