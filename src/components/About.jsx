@@ -11,9 +11,9 @@ const About = () => {
             image: aiml, 
             title: 'Career Focus',
             descriptions: [
-                'My career interests and focal points lie in the realm of artificial intelligence and machine learning.', 
-                'In the societies of today and tomorrow where data is the new oil, understanding data and building software that can learn and act on such data is the key to pushing the world forward.', 
-                'I am so excited to be a part of this fascinating new wave of technology, and I can\'t wait to see what the future holds!'
+                'My career focus is artificial intelligence and machine learning. I love building AI/ML technology and I am absolutely fascinated by it!', 
+                'Additionally, data is the new oil in the societies of today and tomorrow, so understanding data and building software that can learn and act on such data is the key to pushing the world forward. That is exactly what I will do in my career.', 
+                'I am so excited to be a part of this new wave of technology, and I can\'t wait to see what the future holds!'
             ]
         }, 
         {
@@ -29,8 +29,8 @@ const About = () => {
             image: linkedin, 
             title: 'LinkedIn',
             descriptions: [
-                'Check out my LinkedIn to learn more about me and my career accomplishments. ',
-                'Let\'s connect on LinkedIn! I would love to keep in touch with you too.' 
+                'Check out my LinkedIn to learn more about me and my career growth, accomplishments, etc. ',
+                'Let\'s connect on LinkedIn! I would love to keep in touch with you.' 
             ],
             url: 'https://www.linkedin.com/in/akshaysathiya/'
         }

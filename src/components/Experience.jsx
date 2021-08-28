@@ -13,9 +13,10 @@ const Experience = () => {
             image: akshaymsft, 
             title: 'Software Engineer Intern - Azure Cloud + AI',
             organization: 'Microsoft',
+            location: 'Remote',
             date: 'May 2021 - August 2021',
             descriptions: [
-                'I developed ML models using Scikit-learn and PyTorch to streamline health checking for Azure Compute instances running AI workloads. I also developed an AI pipeline using Python to automate data preparation and model building.',
+                'I developed ML models using PyTorch and Scikit-learn to streamline health checking for Azure Compute instances running AI workloads. I also developed an AI pipeline using Python to automate data preparation and model building.',
                 'The technology I built drastically reduced the time for single-instance validation on Azure (from hours to minutes), allowing Microsoft to quickly detect and restore unhealthy Azure Compute instances, keeping Azure robust and reliable for all users.', 
             ]
         },
@@ -23,9 +24,10 @@ const Experience = () => {
             image: akshayfb, 
             title: 'Software Engineer Intern - Messenger AI/ML',
             organization: 'Facebook',
+            location: 'Remote',
             date: 'May 2020 - August 2020',
             descriptions: [
-                'I developed a chatbot system for Messenger using Hack/PHP, Java, GraphQL, and React that uses artificial intelligence to automate FAQ responses for Facebook pages of small/medium-sized businesses (SMBs).', 
+                'I developed a chatbot system for Messenger using React, Hack/PHP, Java, and GraphQL that uses artificial intelligence to automate FAQ responses for Facebook pages of small/medium-sized businesses (SMBs).', 
                 'The technology I built increased the number of fulfilled valuable business events (sales, quotes, etc.) on Messenger by orders of magnitude, as a part of Facebook’s initiative to use AI to help SMBs survive and operate through the COVID-19 pandemic.'
             ]
         },
@@ -33,29 +35,32 @@ const Experience = () => {
             image: akshaymtech, 
             title: 'Software Engineer Intern - Data & Analytics',
             organization: 'Macy\'s Technology',
+            location: 'John\'s Creek, GA',
             date: 'May 2019 - August 2019',
             descriptions: [
-                'I developed a dashboard using React, Express, Node.js, and GCP that detects aging inventory and provides data analytics to improve the supply chain. This project won 1st place at the Macy’s Tech Summer 2019 Intern Hackathon.',
-                'I developed a data-as-a-service (DaaS) application using Java to map order data to cloud GCP database tables. I also built an acronym dictionary tool using Java and MySQL to help Macy’s cultivate a wiki of company jargon.'
+                'I developed a dashboard using React, Express, Node.js, Google Cloud Platform BigQuery, and Google Cloud Platform Cloud Run that detects aging inventory and provides data analytics to improve the supply chain. This project won 1st place at the Macy’s Tech Summer 2019 Intern Hackathon.',
+                'I developed a data-as-a-service (DaaS) application using Java and Google Cloud Platform to map order data to Google Cloud Platform BigQuery database tables. I also built an acronym dictionary wiki using React, Express, Node.js, and PostgreSQL to record and update company jargon.'
             ]
         },
         {
             image: analogyplus, 
             title: 'Mobile App Development Intern',
             organization: 'Analogy Plus LLC',
+            location: 'Remote',
             date: 'June 2017 - August 2017',
             descriptions: [
-                'I helped design & develop Consent App, an iOS mobile app for secure, electronic waiver-signing.',
-                'I received guidance and training in Android mobile app development.'
+                'I helped design & develop Consent App using Swift and Xcode. Consent App is an iOS mobile app for secure, electronic waiver-signing.',
+                'I received guidance and training in Android mobile app development using Java and Android Studio.'
             ]
         },
         {
             image: llnl, 
             title: 'Cyber Defense Intern',
             organization: 'Lawrence Livermore National Laboratory',
+            location: 'Livermore, CA',
             date: 'June 2016 - August 2016',
             descriptions: [
-                'I conducted and presented research on the direct relationship between proximity & signal strength. Discussed the application of my findings regarding drone tracking and drone behavior prediction.',
+                'I conducted research using Python on the direct relationship between proximity & signal strength. Presented my research and discussed the application of my findings regarding drone tracking and drone behavior prediction.',
                 'I also competed in lab-wide solo and team Capture-the-Flag (CTF) cybersecurity competitions.'
             ]
         }
@@ -67,7 +72,7 @@ const Experience = () => {
                 <p className="f1 fw7 text-dark mv0">
                     <span className="fas fa-briefcase"></span> Experience 
                 </p>
-                <p>Check out the awesome places I have worked and the work I did! I have received full-time offer at Microsoft. Previously, I have received intern offers and/or worked at Microsoft, Facebook, Amazon, and other great companies.</p>
+                <p>Check out the awesome places I have worked and the work I did! I have received a full-time job offer at Microsoft. Previously, I have received internship offers at Microsoft, Facebook, Amazon, and other great companies.</p>
                 {cards.map((card, i) => {
                     return (
                         <div>
@@ -76,6 +81,7 @@ const Experience = () => {
                                 key={i}
                                 title={card.title}
                                 organization={card.organization}
+                                location={card.location}
                                 date={card.date}
                                 image={card.image}
                                 descriptions={card.descriptions}

@@ -6,7 +6,7 @@ const ProjectCard = ({image, title, stack, date, descriptions, url, idx}) => {
         return (
             <div className="page-card">
                 <div className="w-60 mr3">
-                    {url ? <h4><a href={url} target="_blank" rel="noreferrer">{title}</a></h4> : <h4>{title}</h4>}
+                    {url ? <h4><a href={url} target="_blank" rel="noreferrer" className="url">{title}</a></h4> : <h4>{title}</h4>}
                     <h5>{date} - Built with {stack}</h5>
                     {descriptions.map(description => {
                         return (
@@ -27,7 +27,7 @@ const ProjectCard = ({image, title, stack, date, descriptions, url, idx}) => {
                 <img src={image} alt="project card" className="card-image" />
             </div>
             <div className="w-60">
-                {url ? <h4><a href={url} target="_blank" rel="noreferrer">{title}</a></h4> : <h4>{title}</h4>}
+                {url ? <h4><a href={url} target="_blank" rel="noreferrer" className="url">{title}</a></h4> : <h4>{title}</h4>}
                 <h5>{date} - Built with {stack}</h5>
                 {descriptions.map(description => {
                     return (

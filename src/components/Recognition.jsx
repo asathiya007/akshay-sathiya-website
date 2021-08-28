@@ -10,11 +10,11 @@ const Recognition = () => {
         {
             image: oracle, 
             title: 'Oracle Certified Associate (Java SE8 Programming)',
-            organization: 'Oracle',
+            organization: 'Oracle Corporation',
             date: 'January 2019',
             descriptions: [
-                'I am a proud Eagle Scout from Troop 888!',
-                'Throughout my years in the Boy Scouts of America, I have held multiple leadership positions in my troop, through which I have led campouts, meetings, and other programs. I have earned 23 merit badges, corresponding to personal management, communications, and many more skills. I have also given back to my community through my Eagle Project, where I built mobile lost and found bins for my high school, Dougherty Valley High School.', 
+                'I am an Oracle Certified Associate in Java SE8 Programming.',
+                'I earned this certification through studying and demonstrating mastery in Java programming and object-oriented programming principles (inheritance, polymorphism, encapsulation, and abstraction).', 
             ]
         },
         {
@@ -45,7 +45,7 @@ const Recognition = () => {
                 <p className="f1 fw7 text-dark mv0">
                     <span className="fas fa-award"></span> Recognition 
                 </p>
-                <p>Check out some of the cool awards, honors, and certifications I have received!</p>
+                <p>Check out some of the awards, honors, and certifications I have received!</p>
                 {cards.map((card, i) => {
                     return (
                         <div>

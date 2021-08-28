@@ -2,6 +2,10 @@ html, body {
   overflow-x: hidden; 
 }
 
+.url {
+  text-decoration: underline;
+}
+
 .landing {
   background: url("./img/landing.png");
   background-size: cover;

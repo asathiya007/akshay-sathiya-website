@@ -32,7 +32,7 @@ const Projects = () => {
         {
             image: hotspot, 
             title: 'HotSpot',
-            stack: 'Pytorch, Flask, Heroku, and React',
+            stack: 'Pytorch, React, Flask, and Heroku',
             date: 'August 2020',
             descriptions: [
                 'A machine learning tool that detects fires in aerial images captured by planes, drones, satellites, etc. Inspired by California\'s wildfire crisis in August 2020.', 
@@ -43,7 +43,7 @@ const Projects = () => {
         {
             image: safeandsound, 
             title: 'Safe & Sound',
-            stack: 'Google Cloud Platform Natural Language, Django, MongoDB, React',
+            stack: 'React, Django, MongoDB,and Google Cloud Platform Natural Language',
             date: 'January 2020',
             descriptions: [
                 'An AI system that protects people at risk of self-harm by analyzing their text messages for significant distress and prompting their support network to reach out.',
@@ -59,7 +59,7 @@ const Projects = () => {
                 <p className="f1 fw7 text-dark mv0">
                     <span className="fas fa-pencil-ruler"></span> Projects 
                 </p>
-                <p>Check out some of the projects I have made for courses, hackathons, fun, etc.!</p>
+                <p>Check out these cool projects I have made for courses, hackathons, fun, etc.!</p>
                 {cards.map((card, i) => {
                     return (
                         <div>

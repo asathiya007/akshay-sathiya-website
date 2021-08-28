@@ -14,6 +14,7 @@ const Education = () => {
             image: akshaymsgt, 
             title: 'Master\'s of Science in Computer Science - Machine Learning',
             organization: 'Georgia Institute of Technology',
+            location: 'Atlanta, GA',
             date: 'August 2021 - May 2022 (Expected)',
             descriptions: [
                 'I am currently earning my M.S. degree in computer science at Georgia Tech, specializing in machine learning.',
@@ -24,6 +25,7 @@ const Education = () => {
             image: akshaybsgt, 
             title: 'Bachelor\'s of Science in Computer Science - Intelligence and Information Internetworks',
             organization: 'Georgia Institute of Technology',
+            location: 'Atlanta, GA',
             date: 'August 2018 - May 2021',
             descriptions: [
                 'I earned my B.S. degree in computer science at Georgia Tech (in three years!), specializing in intelligence and information internetworks. I graduated with Highest Honor and several Dean\'s List appearances.', 
@@ -34,6 +36,7 @@ const Education = () => {
             image: hexlabs, 
             title: 'HexLabs/HackGT Tech Team - Software Engineer and Project Lead',
             organization: 'Georgia Institute of Technology',
+            location: 'Atlanta, GA',
             date: 'January 2020 - May 2021',
             descriptions: [
                 'As a software engineer and project lead on the HexLabs (formerly called HackGT) Tech Team, I led the development of the Beardell Bot, an chatbot system integrated with Slack that uses AI/natural language processing to answer participant\'s questions or pair them up with mentors who can answer their question.', 
@@ -44,6 +47,7 @@ const Education = () => {
             image: gtael, 
             title: 'Augmented Environments Lab - Software Engineer',
             organization: 'Georgia Institute of Technology',
+            location: 'Atlanta, GA',
             date: 'January 2020 - May 2021',
             descriptions: [
                 'As a software engineer in the Augmented Environments Lab at Georgia Tech, I developed features of a lab-wide AR/VR immersive book project. Throughout my time at the AEL, I developed collision-detection components, 3D models, interactive virutal reality scenes, and many more integral parts of the AR/VR immersive book project.'
@@ -53,6 +57,7 @@ const Education = () => {
             image: gtgrandchallenges, 
             title: 'Grand Challenges Research Program - Software Engineer',
             organization: 'Georgia Institute of Technology',
+            location: 'Atlanta, GA',
             date: 'August 2018 - May 2019',
             descriptions: [
                 'As a software engineer in the Grand Challenges Research Program at Georgia Tech, I worked with four other students to develop a mobile app to help Georgia Tech students pair up with other students to safely walk across campus at night.'
@@ -66,7 +71,7 @@ const Education = () => {
                 <p className="f1 fw7 text-dark mv0">
                     <span className="fas fa-graduation-cap"></span> Education 
                 </p>
-                <p>Check out my educational background and accomplishments!</p>
+                <p>Check out my educational background, involvements, and accomplishments!</p>
                 {cards.map((card, i) => {
                     return (
                         <div>
@@ -75,6 +80,7 @@ const Education = () => {
                                 key={i}
                                 title={card.title}
                                 organization={card.organization}
+                                location={card.location}
                                 date={card.date}
                                 image={card.image}
                                 descriptions={card.descriptions}
