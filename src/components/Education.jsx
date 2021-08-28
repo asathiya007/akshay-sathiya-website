@@ -39,8 +39,8 @@ const Education = () => {
             location: 'Atlanta, GA',
             date: 'January 2020 - May 2021',
             descriptions: [
-                'As a software engineer and project lead on the HexLabs (formerly called HackGT) Tech Team, I led the development of the Beardell Bot, an chatbot system integrated with Slack that uses AI/natural language processing to answer participant\'s questions or pair them up with mentors who can answer their question.', 
-                'The Beardell Bot helped over a thousand participants at our flagship hackathon, HackGT, and at our other hackathons to learn more about software engineering and complete their hackathon projects.'
+                'As a software engineer and project lead on the HexLabs (formerly called HackGT) Tech Team, I led the development of the Beardell Bot, an chatbot system built with React, Express, and Node.js and deployed via Google Cloud Platform.',
+                'The Beardell Bot is integrated with Slack and uses artificial intelligence to answer participant\'s questions or pair them up with mentors who can answer their question. The Beardell Bot helped over a thousand participants at our flagship hackathon, HackGT, and at our other hackathons to learn more about software engineering and complete their hackathon projects.'
             ]
         },
         {
@@ -50,7 +50,8 @@ const Education = () => {
             location: 'Atlanta, GA',
             date: 'January 2020 - May 2021',
             descriptions: [
-                'As a software engineer in the Augmented Environments Lab at Georgia Tech, I developed features of a lab-wide AR/VR immersive book project. Throughout my time at the AEL, I developed collision-detection components, 3D models, interactive virutal reality scenes, and many more integral parts of the AR/VR immersive book project.'
+                'As a software engineer in the Augmented Environments Lab at Georgia Tech, I developed features of a lab-wide AR/VR immersive book project using HTML, CSS, JavaScript, AFrame, Mozilla Hubs, and Blender.', 
+                'Throughout my time at the AEL, I developed collision-detection components, 3D models, interactive virutal reality scenes, and many more integral parts of the AR/VR immersive book project.'
             ]
         },
         {
@@ -60,7 +61,7 @@ const Education = () => {
             location: 'Atlanta, GA',
             date: 'August 2018 - May 2019',
             descriptions: [
-                'As a software engineer in the Grand Challenges Research Program at Georgia Tech, I worked with four other students to develop a mobile app to help Georgia Tech students pair up with other students to safely walk across campus at night.'
+                'As a software engineer in the Grand Challenges Research Program at Georgia Tech, I worked with four other students to develop an Android mobile app with Java, JavaScript, Android Studio, and Heroku to help Georgia Tech students pair up with each other and form groups to safely walk across campus at night.'
             ]
         },
     ]
