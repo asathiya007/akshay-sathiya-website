@@ -2,7 +2,7 @@ import React from 'react';
 
 const Landing = () => {
     return (
-        <div className="landing pt4 vertical-center">
+        <div className="landing pt4 vertical-center bg-dark">
             <div className="title message-bottom">
                 <div className="typewriter-message">
                     <div>
