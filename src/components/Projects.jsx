@@ -43,7 +43,7 @@ const Projects = () => {
         {
             image: safeandsound, 
             title: 'Safe & Sound',
-            stack: 'React, Django, MongoDB,and Google Cloud Platform Natural Language',
+            stack: 'React, Django, MongoDB, and Google Cloud Platform Natural Language',
             date: 'January 2020',
             descriptions: [
                 'An AI system that protects people at risk of self-harm by analyzing their text messages for significant distress and prompting their support network to reach out.',
