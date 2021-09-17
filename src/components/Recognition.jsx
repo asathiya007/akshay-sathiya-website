@@ -1,7 +1,7 @@
 import React from 'react'; 
-import eaglescout from '../img/eaglescout.png';
-import oracle from '../img/oracle.png';
-import cpp from '../img/cpp.png';
+import eaglescout from '../img/eaglescout-min.png';
+import oracle from '../img/oracle-min.png';
+import cpp from '../img/cpp-min.png';
 import RecognitionCard from './RecognitionCard';
 
 const Recognition = () => { 

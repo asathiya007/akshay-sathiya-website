@@ -1,9 +1,9 @@
 import React from 'react'; 
-import akshaybsgt from '../img/akshaybsgt.png';
-import akshaymsgt from '../img/akshaymsgt.png';
-import gtael from '../img/gtael.png';
-import hexlabs from '../img/hexlabs.png';
-import gtgrandchallenges from '../img/gtgrandchallenges.png';
+import akshaybsgt from '../img/akshaybsgt-min.png';
+import akshaymsgt from '../img/akshaymsgt-min.png';
+import gtael from '../img/gtael-min.png';
+import hexlabs from '../img/hexlabs-min.png';
+import gtgrandchallenges from '../img/gtgrandchallenges-min.png';
 import EducationCard from './EducationCard';
 
 

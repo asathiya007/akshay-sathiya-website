@@ -1,7 +1,7 @@
 import React from 'react'; 
-import aiml from '../img/aiml.jpeg'; 
-import github from '../img/github.png';
-import linkedin from '../img/linkedin.png';
+import aiml from '../img/aiml-min.jpeg'; 
+import github from '../img/github-min.png';
+import linkedin from '../img/linkedin-min.png';
 import AboutCard from './AboutCard';
 
 const About = () => { 

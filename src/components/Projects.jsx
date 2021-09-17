@@ -1,9 +1,9 @@
 import React from 'react'; 
 import ProjectCard from './ProjectCard';
-import safeandsound from '../img/safeandsound.jpg';
-import hotspot from '../img/hotspot.png';
-import amazonstocks from '../img/amazonstocks.jpeg';
-import carcam from '../img/carcam.png';
+import safeandsound from '../img/safeandsound-min.jpg';
+import hotspot from '../img/hotspot-min.png';
+import amazonstocks from '../img/amazonstocks-min.jpeg';
+import carcam from '../img/carcam-min.png';
 
 const Projects = () => { 
 

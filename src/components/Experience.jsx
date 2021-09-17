@@ -1,9 +1,9 @@
 import React from 'react'; 
-import akshaymsft from '../img/akshaymsft.png';
-import akshayfb from '../img/akshayfb.jpg';
-import akshaymtech from '../img/akshaymtech.png';
-import analogyplus from '../img/analogyplus.png';
-import llnl from '../img/llnl.png';
+import akshaymsft from '../img/akshaymsft-min.png';
+import akshayfb from '../img/akshayfb-min.jpg';
+import akshaymtech from '../img/akshaymtech-min.png';
+import analogyplus from '../img/analogyplus-min.png';
+import llnl from '../img/llnl-min.png';
 import ExperienceCard from './ExperienceCard';
 
 const Experience = () => { 
