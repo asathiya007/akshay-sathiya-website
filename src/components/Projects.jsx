@@ -4,10 +4,45 @@ import safeandsound from '../img/safeandsound-min.jpg';
 import hotspot from '../img/hotspot-min.png';
 import amazonstocks from '../img/amazonstocks-min.jpeg';
 import carcam from '../img/carcam-min.png';
+import sds from '../img/sds-min.png';
+import nbacc from '../img/nbacc-min.png';
+import nbatt from '../img/nbatt-min.png';
 
 const Projects = () => { 
 
     const cards = [
+        {
+            image: nbatt, 
+            title: 'NBA Trending Teams',
+            stack: 'Scikit-learn, D3.js',
+            date: 'December 2021',
+            descriptions: [
+                'Course project for CS 6242 (Data and Visual Analytics) at Georgia Tech (Fall 2021). Led a team of five (including myself) students/developers to build machine learning models that performed sentiment analysis on tweets for each NBA team over time and interactive data visualizations to show how positively and negatively trending NBA teams are over time.',
+                'We trained naive Bayes, logistic regression, and random forest models for sentiment classification. We used D3.js to produce the interactive data visualizations (line graphs and bar graphs).'
+            ], 
+            url: 'https://github.com/asathiya007/nba-trending-teams'
+        },
+        {
+            image: nbacc, 
+            title: 'NBA Crowdsourcing Comparisons',
+            stack: 'Scikit-learn, Flask, React-Native, Firebase',
+            date: 'December 2021',
+            descriptions: [
+                'Course project for CS 6220 (Big Data Systems and Analytics) at Georgia Tech (Fall 2021). Led a team of four (including myself) students/developers to build a crowdsourcing mobile app to collect NBA player comparison data and train machine learning models (linear regression and random forest regression models) to predict how much better one NBA player is over another given their statistics (box scores, shooting percentage, etc.).'
+            ], 
+            url: 'https://github.com/asathiya007/nba-crowdsourcing-comparisons'
+        },
+        {
+            image: sds, 
+            title: 'Sentiment Dataset Shift',
+            stack: 'Python',
+            date: 'December 2021',
+            descriptions: [
+                'Course project for CS 8803 DMM (Data Management and Machine Learning) at Georgia Tech (Fall 2021). I developed Sentiment Dataset Shift along with another student/classmate.',
+                'Sentiment Dataset Shift is a pipeline that uses data science and statistics techniques to quantify the dataset shift of sentiment classification datasets.'
+            ], 
+            url: 'https://github.com/asathiya007/sentiment-dataset-shift'
+        },
         {
             image: carcam, 
             title: 'CarCam',
