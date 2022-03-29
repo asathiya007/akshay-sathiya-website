@@ -18,7 +18,7 @@ const Projects = () => {
             date: 'December 2021',
             descriptions: [
                 'Course project for CS 6242 (Data and Visual Analytics) at Georgia Tech (Fall 2021). Led a team of five (including myself) students/developers to build machine learning models that performed sentiment analysis on tweets for each NBA team over time and interactive data visualizations to show how positively and negatively trending NBA teams are over time.',
-                'We trained naive Bayes, logistic regression, and random forest models for sentiment classification. We used D3.js to produce the interactive data visualizations (line graphs and bar graphs).'
+                'We trained naive Bayes, logistic regression, and random forest models for sentiment analysis. We used D3.js to produce the interactive data visualizations (line graphs and bar graphs).'
             ], 
             url: 'https://github.com/asathiya007/nba-trending-teams'
         },
