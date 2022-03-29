@@ -28,7 +28,7 @@ const Projects = () => {
             stack: 'Scikit-learn, Flask, React-Native, Firebase',
             date: 'December 2021',
             descriptions: [
-                'Course project for CS 6220 (Big Data Systems and Analytics) at Georgia Tech (Fall 2021). Led a team of four (including myself) students/developers to build a crowdsourcing mobile app to collect NBA player comparison data and train machine learning models (linear regression and random forest regression models) to predict how much better one NBA player is over another given their statistics (box scores, shooting percentage, etc.).'
+                'Course project for CS 6220 (Big Data Systems and Analytics) at Georgia Tech (Fall 2021). Led a team of four (including myself) students/developers to build a crowdsourcing mobile app to collect NBA player comparison data and train machine learning models (linear regression and random forest regression models) to predict how much better one NBA player is over another given their statistics (per-game averages, field goal percentage, etc.).'
             ], 
             url: 'https://github.com/asathiya007/nba-crowdsourcing-comparisons'
         },
