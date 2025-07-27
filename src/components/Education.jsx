@@ -15,9 +15,9 @@ const Education = () => {
             title: 'Master\'s of Science in Computer Science - Machine Learning',
             organization: 'Georgia Institute of Technology',
             location: 'Atlanta, GA',
-            date: 'August 2021 - May 2022 (Expected)',
+            date: 'August 2021 - May 2022',
             descriptions: [
-                'I am currently earning my M.S. degree in computer science at Georgia Tech, specializing in machine learning.',
+                'I earned my M.S. degree in computer science at Georgia Tech (in one year!), specializing in machine learning.',
                 'Relevant coursework: Machine Learning, Data Management and Machine Learning, Machine Learning for Computational Biology, Big Data Systems and Analytics, Data and Visual Analytics, Computer Vision, Computational Science/Engineering Algorithms, Intro to Health Informatics, Behavioral Imaging'
             ]
         },

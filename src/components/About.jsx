@@ -11,8 +11,9 @@ const About = () => {
             image: aiml, 
             title: 'Career Focus',
             descriptions: [
+                // update: passionate about AI applied to gaming
                 'My career focus is artificial intelligence and machine learning. I love building AI/ML technology and I am absolutely fascinated by it!', 
-                'Additionally, data is the new oil in the societies of today and tomorrow, so understanding data and building software that can learn and act on such data is the key to pushing the world forward. That is exactly what I will do in my career.', 
+                'I think AI/ML technology, especially generative AI, will allow us to push the frontier in many domains, like gaming, cloud, etc.', 
                 'I am so excited to be a part of this new wave of technology, and I can\'t wait to see what the future holds!'
             ]
         }, 
