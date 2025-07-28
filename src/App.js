@@ -9,6 +9,7 @@ import Recognition from './components/Recognition';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Education from './components/Education';
+import Publications from './components/Publications';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/experience" component={Experience} />
             <Route exact path="/education" component={Education} />
+            <Route exact path="/publications" component={Publications} />
           </Switch>
         </Fragment>
       </Router>

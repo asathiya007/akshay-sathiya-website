@@ -25,7 +25,8 @@ const Projects = () => {
             stack: 'Python (LangChain)',
             date: 'July 2025',
             descriptions: [
-                'Uses Llama3.3-70b-instruct & RAG to chat with users as Street Fighter characters (e.g. Ryu) and tell them the lore.'
+                'StreetChatter is an AI that assumes the role of Street Fighter characters (e.g. Ryu, Dhalsim, Chun-Li, M. Bison, Ken) and chats with users to help them learn the lore of that character and the Street Fighter universe. StreetChatter is powered by an LLM (Llama-3.3-70b-instruct) and retrieval augmented generation (RAG).',
+                'This project showcases how generative AI can be used to deepen player immersion. New Street Fighter players will be curious to learn about the lore of the game and the characters they play as/against. Rather than reading lots of exposition online, they can chat with their favorite Street Fighter characters and learn through their conversations! A much more fun way to learn about a new game.'
             ],
             url: 'https://github.com/asathiya007/streetchatter'
         },
@@ -35,7 +36,7 @@ const Projects = () => {
             stack: 'Python (LangChain)',
             date: 'July 2025',
             descriptions: [
-                'Uses Llama3.3-70b-instruct and retrieval augmented generation (RAG) to answer questions about papers on arXiv.'
+                'PaperBuddy is an AI assistant that answers questions about papers on arXiv (arxiv.org) using an LLM (Llama-3.3-70b-instruct) and retrieval augmented generation (RAG).',
             ],
             url: 'https://github.com/asathiya007/paperbuddy'
         },
@@ -45,7 +46,8 @@ const Projects = () => {
             stack: 'C# (Unity), Python (Hugging Face)',
             date: 'July 2025',
             descriptions: [
-                'A remake of Space Invaders, featuring adaptive difficulty and AI-generated (at run-time) backgrounds/sprites.'
+                'A remake of the classic Space Invaders game, featuring adaptive difficulty and AI-generated (at run-time) backgrounds/sprites.',
+                'This project showcases how generative AI can be used at runtime to provide a more vivid gameplay experience, while still retaining the familiar aspects of the game that people know and love.'
             ],
             url: 'https://github.com/asathiya007/neo-space-invaders'
         },
@@ -55,7 +57,8 @@ const Projects = () => {
             stack: 'Python (PyTorch, Hugging Face)',
             date: 'June 2025',
             descriptions: [
-                'Uses Stable Diffusion XL v1.0, LoRA (a parameter-efficient fine-tuning technique), and Phi-4-multimodal-instruct to create images of new Mortal Kombat characters.'
+                'GenMK is an AI system that uses a multimodal model (Phi-4-multimodal-instruct) and a fine-tuned diffusion model (Stable Diffusion XL v1.0, fine-tuned with LoRA, a parameter-efficient fine-tuning technique) to generate images of new Mortal Kombat characters.',
+                'This project showcases how generative AI can support the data preparation process (generating text descriptions for images in an image dataset) and support the creative process (in the context of Mortal Kombat, helping design new characters from provided text descriptions).'
             ],
             url: 'https://github.com/asathiya007/genmk'
         },
@@ -65,7 +68,8 @@ const Projects = () => {
             stack: 'Python (PyTorch, Hugging Face)',
             date: 'June 2025',
             descriptions: [
-                'Uses Stable Diffusion v1.5, LoRA (a parameter-efficient fine-tuning technique), and Phi-4-multimodal-instruct to generate new Yu-Gi-Oh! Spell and Trap cards.'
+                'CardCrafter is an AI system that uses a multimodal model (Phi-4-multimodal-instruct, with few-shot learning) and a fine-tuned diffusion model (Stable Diffusion v1.5, fine-tuned with LoRA, a parameter-efficient fine-tuning technique) to generate images of new Yu-Gi-Oh! Spell and Trap cards.',
+                'This project showcases how generative AI can support the data preparation process (in the context of Yu-Gi-Oh! cards, extracting text from and describing certain parts of a Yu-Gi-Oh! card image) and support the creative process (in the context of Yu-Gi-Oh! cards, describing what the image at the center of the card should look like given the card\'s name and effect, and generating an image from that description).'
             ],
             url: 'https://github.com/asathiya007/cardcrafter'
         },
@@ -75,7 +79,7 @@ const Projects = () => {
             stack: 'Python (PyTorch)',
             date: 'March 2025',
             descriptions: [
-                'Uses a custom diffusion model to generate images of new articles of clothing.'
+                'StyleSynth is an AI system that uses a custom diffusion model to generate images of new articles of clothing.'
             ],
             url: 'https://github.com/asathiya007/stylesynth'
         },
@@ -85,7 +89,7 @@ const Projects = () => {
             stack: 'Python (Hugging Face)',
             date: 'February 2025',
             descriptions: [
-                'Uses Phi-3.5-mini-instruct with parameter efficient fine-tuning techniques (PEFT, specifically LoRA and p-tuning) to answer medical research questions.'
+                'Medi is an AI system that uses the Phi-3.5-mini-instruct language model with parameter efficient fine-tuning techniques (PEFT, specifically LoRA and p-tuning) to answer medical research questions.'
             ],
             url: 'https://github.com/asathiya007/medi'
         },

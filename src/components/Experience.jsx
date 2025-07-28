@@ -3,7 +3,6 @@ import akshaymsftintern from '../img/akshaymsft-min.png';
 import akshaymsft from '../img/akshaymsft2022-min.png';
 import akshayfb from '../img/akshayfb-min.jpg';
 import akshaymtech from '../img/akshaymtech-min.png';
-import analogyplus from '../img/analogyplus-min.png';
 import llnl from '../img/llnl-min.png';
 import ExperienceCard from './ExperienceCard';
 
@@ -19,7 +18,7 @@ const Experience = () => {
                 'I was a co-founding data scientist of the EnvDesign model, a system (patent pending) that uses graph theory and optimization algorithms to design pre-production testing environments for Azure internal programs (an NP-hard problem). It is used in AzQualify, a pre-production testing/regression prevention system in Azure that catches ~5-10 regressions a month. Received a Microsoft Patent Cube Award after filing a patent for the EnvDesign Model.',
                 'I was a co-founding data scientist of an open-source Python library, optimizn, that helps users customize optimization algorithms (simulated annealing, branch & bound) and the multi-arm bandit reinforcement learning algorithm for their problems/use cases.',
                 'I wrote two papers (as first-name author) describing the EnvDesign model and the optimizn library. I co-authored a blog with Mark Russinovich, CTO of Azure, about how the optimizn library is used in Azure. I also presented both the EnvDesign model and optimizn library at Microsoft-internal poster galleries for ML, AI, and data science. See the Publications section of this website for links to the papers and blog.',
-                'I was the founding data scientist of two inner-source Python libraries, Nitro and PeftGenie, that helps users fine-tune diffusion models and language models with parameter-efficient fine-tuning (PEFT) techniques, specifically LoRA and p-tuning. Presented both libraries at a company-internal poster gallery for ML, AI, data science, and gaming.'
+                'I was the founding data scientist of two inner-source Python libraries, Nitro and PeftGenie, that helps users fine-tune diffusion models and language models with parameter-efficient fine-tuning (PEFT) techniques, specifically LoRA and p-tuning. I presented both libraries at a company-internal poster gallery for ML, AI, data science, and gaming.'
             ]
         },
         {
@@ -56,17 +55,6 @@ const Experience = () => {
             ]
         },
         {
-            image: analogyplus, 
-            title: 'Mobile App Development Intern',
-            organization: 'Analogy Plus LLC',
-            location: 'Remote',
-            date: 'June 2017 - August 2017',
-            descriptions: [
-                'I helped design & develop Consent App using Swift and Xcode. Consent App is an iOS mobile app for secure, electronic waiver-signing.',
-                'I received guidance and training in Android mobile app development using Java and Android Studio.'
-            ]
-        },
-        {
             image: llnl, 
             title: 'Cyber Defense Intern',
             organization: 'Lawrence Livermore National Laboratory',
@@ -74,7 +62,6 @@ const Experience = () => {
             date: 'June 2016 - August 2016',
             descriptions: [
                 'I conducted research using Python on the direct relationship between proximity & signal strength. Presented my research and discussed the application of my findings regarding drone tracking and drone behavior prediction.',
-                'I also competed in lab-wide solo and team Capture-the-Flag (CTF) cybersecurity competitions.'
             ]
         }
     ]

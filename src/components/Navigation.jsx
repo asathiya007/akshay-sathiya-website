@@ -32,6 +32,11 @@ const Navigation = () => {
                     Recognition
                 </span>
             </Nav.Link>
+            <Nav.Link href="/publications">
+                <span>
+                    Publications
+                </span>
+            </Nav.Link>
         </Fragment>
     }
 
