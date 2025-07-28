@@ -12,7 +12,7 @@ const About = () => {
             title: 'Career Focus',
             descriptions: [
                 'My career focus is artificial intelligence and machine learning. I love building AI/ML technology and I am absolutely fascinated by it!', 
-                'I think AI/ML technology, especially generative AI, will allow us to push the frontier in many domains, like gaming, cloud, etc. Consequently, we can improve existing functionality, develop new functionality, and ultimately deliver more effective technology and a better user experience.', 
+                'I think AI/ML technology, especially generative AI, will allow us to push the frontier in many domains, like gaming, cloud, etc. With AI, we can improve existing functionality, develop new functionality, and ultimately build effective technology that empowers developers and/or delivers a great user experience.', 
                 'I am so excited to be a part of this new wave of technology, and I can\'t wait to see what the future holds!'
             ]
         }, 
