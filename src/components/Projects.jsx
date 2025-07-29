@@ -14,6 +14,7 @@ import genmk from '../img/genmk-min.png';
 import neospaceinvaders from '../img/neospaceinvaders-min.png';
 import paperbuddy from '../img/paperbuddy-min.png';
 import streetchatter from '../img/streetchatter-min.png';
+import mapi from '../img/mapi-min.png';
 
 
 const Projects = () => { 
@@ -92,6 +93,17 @@ const Projects = () => {
                 'Medi is an AI system that uses the Phi-3.5-mini-instruct language model with parameter efficient fine-tuning techniques (PEFT, specifically LoRA and p-tuning) to answer medical research questions.'
             ],
             url: 'https://github.com/asathiya007/medi'
+        },
+        {
+            image: mapi, 
+            title: 'Mental and Physical Illness (MAPI) Chatbot',
+            stack: 'Python (Scikit-learn, Flask), TypeScript (React Native), PostgreSQL, Heroku',
+            date: 'April 2022',
+            descriptions: [
+                'Course project for CS 6440 (Intro to Health Informatics) at Georgia Tech (Spring 2022). Worked in a team of six (including myself) students/developers to build a chatbot system that predicts mental/physical illness risks from user messages that describe how the user is feeling/what symptoms the user is experiencing.',
+                'To extract symptoms of physical illnesses from a user message, we use a multi-output classifier of neural networks, where each neural network predicts whether the user is experiencing a particular symptom. We then use either another neural network or a random forest model to predict the physical illness risks from the extracted symptoms. When returning physical illness risks to the user, precautions that the user can take to prevent/mitigate those physical illnesses are also returned.',
+                'To predict mental illness risks from user messages, we use a logistic regression model to predict the sentiments present in the message and these predicted sentiments are then used to predict the mental illness risks.'
+            ]
         },
         {
             image: nbatt, 
