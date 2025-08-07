@@ -39,7 +39,7 @@ const Experience = () => {
             location: 'Remote',
             date: 'May 2020 - August 2020',
             descriptions: [
-                'I developed a chatbot system for Messenger using React, Hack/PHP, Java, and GraphQL that uses artificial intelligence to automate FAQ responses for Facebook pages of small/medium-sized businesses (SMBs).', 
+                'I developed a suggested-reply flow for Messenger using React, Hack/PHP, Java, and GraphQL that uses artificial intelligence to facilitate FAQ responses for Facebook pages of small/medium-sized businesses (SMBs).', 
                 'The technology I built increased the number of fulfilled valuable business events (sales, quotes, etc.) on Messenger by orders of magnitude, as a part of Facebook’s initiative to use AI to help SMBs survive and operate through the COVID-19 pandemic.'
             ]
         },
@@ -51,7 +51,7 @@ const Experience = () => {
             date: 'May 2019 - August 2019',
             descriptions: [
                 'I developed a dashboard using React, Express, Node.js, Google Cloud Platform BigQuery, and Google Cloud Platform Cloud Run that detects aging inventory and provides data analytics to improve the supply chain. This project won 1st place at the Macy’s Tech Summer 2019 Intern Hackathon.',
-                'I developed a data-as-a-service (DaaS) application using Java and Google Cloud Platform to map order data to Google Cloud Platform BigQuery database tables. I also built an acronym dictionary wiki using React, Express, Node.js, and PostgreSQL to record and update company jargon.'
+                'I worked on a data-as-a-service (DaaS) application using Java and Google Cloud Platform to map order data to Google Cloud Platform BigQuery database tables. I also built an acronym dictionary wiki using React, Express, Node.js, and PostgreSQL to record and update company jargon.'
             ]
         },
         {
