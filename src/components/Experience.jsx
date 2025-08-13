@@ -28,8 +28,8 @@ const Experience = () => {
             location: 'Remote',
             date: 'May 2021 - August 2021',
             descriptions: [
-                'I developed ML models using PyTorch and Scikit-learn to determine whether servers/nodes running AI workloads are healthy or unhealthy. I also developed a pipeline using Python to facilitate data preparation and model training.',
-                'The technology I built can be used to detect unhealthy nodes in Azure, and in doing so, help keep Azure robust and reliable.', 
+                'I developed ML models using PyTorch and Scikit-learn to predict whether servers/nodes running AI workloads are healthy or unhealthy. I also developed a pipeline using Python to facilitate data preparation and model training across different types of ML models.',
+                'The technology I developed can be used to detect unhealthy nodes in Azure, and in doing so, help keep Azure robust and reliable.', 
             ]
         },
         {
@@ -40,7 +40,7 @@ const Experience = () => {
             date: 'May 2020 - August 2020',
             descriptions: [
                 'I developed a suggested-reply flow for Messenger using React, Hack/PHP, Java, and GraphQL that uses artificial intelligence to facilitate FAQ responses for Facebook pages of small/medium-sized businesses (SMBs).', 
-                'The suggested-reply flow I built can streamline interactions between customers and SMBs on Messenger and increase the number of fulfilled valuable business events (sales, quotes, etc.).'
+                'The suggested-reply flow I developed can streamline interactions between customers and SMBs on Messenger and increase the number of fulfilled valuable business events (sales, quotes, etc.).'
             ]
         },
         {
