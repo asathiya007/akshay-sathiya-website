@@ -40,7 +40,7 @@ const Experience = () => {
             date: 'May 2020 - August 2020',
             descriptions: [
                 'I developed a suggested-reply flow for Messenger using React, Hack/PHP, Java, and GraphQL that uses artificial intelligence to facilitate FAQ responses for Facebook pages of small/medium-sized businesses (SMBs).', 
-                'The suggested-reply flow I developed can streamline interactions between customers and SMBs on Messenger and increase the number of fulfilled valuable business events (sales, quotes, etc.).'
+                'The suggested-reply flow I developed can be used to streamline interactions between customers and SMBs on Messenger and potentially increase the number of fulfilled valuable business events (sales, quotes, etc.).'
             ]
         },
         {
