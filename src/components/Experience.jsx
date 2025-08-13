@@ -23,13 +23,13 @@ const Experience = () => {
         },
         {
             image: akshaymsftintern, 
-            title: 'Software Engineer Intern - Azure Cloud + AI',
+            title: 'Software Engineer Intern - Azure Cloud + AI, Microsoft Research',
             organization: 'Microsoft',
             location: 'Remote',
             date: 'May 2021 - August 2021',
             descriptions: [
-                'I developed ML models using PyTorch and Scikit-learn to streamline health checking for Azure Compute instances running AI workloads. I also developed an AI pipeline using Python to automate data preparation and model building.',
-                'The technology I built drastically reduced the time for single-instance validation on Azure (from hours to minutes), allowing Microsoft to quickly detect and restore unhealthy Azure Compute instances, keeping Azure robust and reliable for all users.', 
+                'I developed ML models using PyTorch and Scikit-learn to determine whether servers/nodes running AI workloads are healthy or unhealthy. I also developed a pipeline using Python to facilitate data preparation and model training.',
+                'The technology I built can be used to detect unhealthy nodes in Azure, and in doing so, help keep Azure robust and reliable.', 
             ]
         },
         {
@@ -40,7 +40,7 @@ const Experience = () => {
             date: 'May 2020 - August 2020',
             descriptions: [
                 'I developed a suggested-reply flow for Messenger using React, Hack/PHP, Java, and GraphQL that uses artificial intelligence to facilitate FAQ responses for Facebook pages of small/medium-sized businesses (SMBs).', 
-                'The technology I built increased the number of fulfilled valuable business events (sales, quotes, etc.) on Messenger by orders of magnitude, as a part of Facebook’s initiative to use AI to help SMBs survive and operate through the COVID-19 pandemic.'
+                'The suggested-reply flow I built can streamline interactions between customers and SMBs on Messenger and increase the number of fulfilled valuable business events (sales, quotes, etc.).'
             ]
         },
         {
