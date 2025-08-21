@@ -12,7 +12,7 @@ const Recognition = () => {
     const cards = [
         {
             image: nvidia, 
-            title: 'Building RAG Agents with LLMs',
+            title: 'Certificate of Competency: Building RAG Agents with LLMs',
             organization: 'Nvidia',
             date: 'March 2025',
             descriptions: [
@@ -22,7 +22,7 @@ const Recognition = () => {
         },
         {
             image: nvidia, 
-            title: 'Generative AI with Diffusion Models',
+            title: 'Certificate of Competency: Generative AI with Diffusion Models',
             organization: 'Nvidia',
             date: 'October 2024',
             descriptions: [
@@ -43,7 +43,7 @@ const Recognition = () => {
         },
         {
             image: akshaygtc, 
-            title: 'Efficient Large Language Model (LLM) Customization',
+            title: 'Certificate of Competency: Efficient Large Language Model (LLM) Customization',
             organization: 'Nvidia',
             date: 'March 2024',
             descriptions: [
